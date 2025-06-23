@@ -1,0 +1,599 @@
+[2025-05-21 19:41:02] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 19:41:03] [DEBUG] [CameraTuner] FloatParameterWidget created: Basic Float [0.0–1.0]
+[2025-05-21 19:41:03] [DEBUG] [CameraTuner] FloatParameterWidget created: Wide Range Float [-100.0–100.0]
+[2025-05-21 19:41:03] [DEBUG] [CameraTuner] FloatParameterWidget created: Precise Float [0.0–0.1]
+[2025-05-21 19:41:03] [DEBUG] [CameraTuner] FloatParameterWidget created: Red [0.0–1.0]
+[2025-05-21 19:41:03] [DEBUG] [CameraTuner] FloatParameterWidget created: Green [0.0–1.0]
+[2025-05-21 19:41:03] [DEBUG] [CameraTuner] FloatParameterWidget created: Blue [0.0–1.0]
+[2025-05-21 19:41:03] [DEBUG] [CameraTuner] FloatParameterWidget created: Rotation X [0.0–360.0]
+[2025-05-21 19:41:03] [DEBUG] [CameraTuner] FloatParameterWidget created: Rotation Y [0.0–360.0]
+[2025-05-21 19:41:03] [DEBUG] [CameraTuner] FloatParameterWidget created: Zoom [0.1–5.0]
+[2025-05-21 19:41:03] [DEBUG] [CameraTuner] [Rotation X] Callback registered: <bound method ComprehensiveExample.update_model_view of <__main__.ComprehensiveExample object at 0x7cab4ea4ffd0>>
+[2025-05-21 19:41:03] [DEBUG] [CameraTuner] [Rotation Y] Callback registered: <bound method ComprehensiveExample.update_model_view of <__main__.ComprehensiveExample object at 0x7cab4ea4ffd0>>
+[2025-05-21 19:41:03] [DEBUG] [CameraTuner] [Zoom] Callback registered: <bound method ComprehensiveExample.update_model_view of <__main__.ComprehensiveExample object at 0x7cab4ea4ffd0>>
+[2025-05-21 19:41:03] [DEBUG] [CameraTuner] FloatParameterWidget created: Speed [0.1–5.0]
+[2025-05-21 19:41:03] [DEBUG] [CameraTuner] FloatParameterWidget created: Amplitude [0.0–10.0]
+[2025-05-21 19:41:03] [DEBUG] [CameraTuner] FloatParameterWidget created: Sine Wave [-10.0–10.0]
+[2025-05-21 19:41:03] [DEBUG] [CameraTuner] FloatParameterWidget created: Cosine Wave [-10.0–10.0]
+[2025-05-21 19:41:03] [DEBUG] [CameraTuner] FloatParameterWidget created: Combined [-10.0–10.0]
+[2025-05-21 19:41:03] [DEBUG] [CameraTuner] FloatParameterWidget created: Refresh Rate (Hz) [1.0–60.0]
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 21.0
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 22.0
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 23.0
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 24.0
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 25.0
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 26.0
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 27.0
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 28.0
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 29.0
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 30.0
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 31.0
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 33.0
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 34.0
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 35.0
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 36.0
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 38.0
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 40.0
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 41.0
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 43.0
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 44.0
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 45.0
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 46.0
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 48.0
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 49.0
+[2025-05-21 19:41:16] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 50.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 51.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 52.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 51.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 50.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 48.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 47.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 46.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 44.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 42.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 40.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 37.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 35.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 32.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 30.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 28.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 26.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 24.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 22.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 20.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 18.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 17.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 16.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 15.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 14.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 15.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 16.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 17.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 18.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 19.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 21.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 23.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 24.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 26.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 28.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 30.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 32.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 33.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 35.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 37.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 39.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 40.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 42.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 43.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 44.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 45.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 46.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 45.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 44.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 43.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 42.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 41.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 40.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 38.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 36.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 35.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 33.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 32.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 31.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 29.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 27.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 26.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 24.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 23.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 22.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 21.0
+[2025-05-21 19:41:17] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 20.0
+[2025-05-21 19:41:21] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] SpinBox changed → 19.0
+[2025-05-21 19:41:22] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] SpinBox changed → 18.0
+[2025-05-21 19:41:22] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] SpinBox changed → 17.0
+[2025-05-21 19:41:22] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] SpinBox changed → 16.0
+[2025-05-21 19:41:22] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] SpinBox changed → 15.0
+[2025-05-21 19:41:22] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] SpinBox changed → 14.0
+[2025-05-21 19:41:22] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] SpinBox changed → 13.0
+[2025-05-21 19:41:23] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] SpinBox changed → 12.0
+[2025-05-21 19:42:20] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 19:42:20] [DEBUG] [CameraTuner] FloatParameterWidget created: Basic Float [0.0–1.0]
+[2025-05-21 19:42:20] [DEBUG] [CameraTuner] FloatParameterWidget created: Wide Range Float [-100.0–100.0]
+[2025-05-21 19:42:20] [DEBUG] [CameraTuner] FloatParameterWidget created: Precise Float [0.0–0.1]
+[2025-05-21 19:42:20] [DEBUG] [CameraTuner] FloatParameterWidget created: Red [0.0–1.0]
+[2025-05-21 19:42:20] [DEBUG] [CameraTuner] FloatParameterWidget created: Green [0.0–1.0]
+[2025-05-21 19:42:20] [DEBUG] [CameraTuner] FloatParameterWidget created: Blue [0.0–1.0]
+[2025-05-21 19:42:20] [DEBUG] [CameraTuner] FloatParameterWidget created: Rotation X [0.0–360.0]
+[2025-05-21 19:42:20] [DEBUG] [CameraTuner] FloatParameterWidget created: Rotation Y [0.0–360.0]
+[2025-05-21 19:42:20] [DEBUG] [CameraTuner] FloatParameterWidget created: Zoom [0.1–5.0]
+[2025-05-21 19:42:20] [DEBUG] [CameraTuner] [Rotation X] Callback registered: <bound method ComprehensiveExample.update_model_view of <__main__.ComprehensiveExample object at 0x7692e0113fd0>>
+[2025-05-21 19:42:20] [DEBUG] [CameraTuner] [Rotation Y] Callback registered: <bound method ComprehensiveExample.update_model_view of <__main__.ComprehensiveExample object at 0x7692e0113fd0>>
+[2025-05-21 19:42:20] [DEBUG] [CameraTuner] [Zoom] Callback registered: <bound method ComprehensiveExample.update_model_view of <__main__.ComprehensiveExample object at 0x7692e0113fd0>>
+[2025-05-21 19:42:20] [DEBUG] [CameraTuner] FloatParameterWidget created: Speed [0.1–5.0]
+[2025-05-21 19:42:20] [DEBUG] [CameraTuner] FloatParameterWidget created: Amplitude [0.0–10.0]
+[2025-05-21 19:42:20] [DEBUG] [CameraTuner] FloatParameterWidget created: Sine Wave [-10.0–10.0]
+[2025-05-21 19:42:20] [DEBUG] [CameraTuner] FloatParameterWidget created: Cosine Wave [-10.0–10.0]
+[2025-05-21 19:42:20] [DEBUG] [CameraTuner] FloatParameterWidget created: Combined [-10.0–10.0]
+[2025-05-21 19:42:20] [DEBUG] [CameraTuner] FloatParameterWidget created: Refresh Rate (Hz) [1.0–60.0]
+[2025-05-21 19:42:46] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 19:42:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Basic Float [0.0–1.0]
+[2025-05-21 19:42:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Wide Range Float [-100.0–100.0]
+[2025-05-21 19:42:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Precise Float [0.0–0.1]
+[2025-05-21 19:42:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Red [0.0–1.0]
+[2025-05-21 19:42:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Green [0.0–1.0]
+[2025-05-21 19:42:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Blue [0.0–1.0]
+[2025-05-21 19:42:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Rotation X [0.0–360.0]
+[2025-05-21 19:42:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Rotation Y [0.0–360.0]
+[2025-05-21 19:42:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Zoom [0.1–5.0]
+[2025-05-21 19:42:46] [DEBUG] [CameraTuner] [Rotation X] Callback registered: <bound method ComprehensiveExample.update_model_view of <__main__.ComprehensiveExample object at 0x75e97083ffd0>>
+[2025-05-21 19:42:46] [DEBUG] [CameraTuner] [Rotation Y] Callback registered: <bound method ComprehensiveExample.update_model_view of <__main__.ComprehensiveExample object at 0x75e97083ffd0>>
+[2025-05-21 19:42:46] [DEBUG] [CameraTuner] [Zoom] Callback registered: <bound method ComprehensiveExample.update_model_view of <__main__.ComprehensiveExample object at 0x75e97083ffd0>>
+[2025-05-21 19:42:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Speed [0.1–5.0]
+[2025-05-21 19:42:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Amplitude [0.0–10.0]
+[2025-05-21 19:42:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Sine Wave [-10.0–10.0]
+[2025-05-21 19:42:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Cosine Wave [-10.0–10.0]
+[2025-05-21 19:42:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Combined [-10.0–10.0]
+[2025-05-21 19:42:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Refresh Rate (Hz) [1.0–60.0]
+[2025-05-21 19:42:59] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 19:43:00] [DEBUG] [CameraTuner] FloatParameterWidget created: Basic Float [0.0–1.0]
+[2025-05-21 19:43:00] [DEBUG] [CameraTuner] FloatParameterWidget created: Wide Range Float [-100.0–100.0]
+[2025-05-21 19:43:00] [DEBUG] [CameraTuner] FloatParameterWidget created: Precise Float [0.0–0.1]
+[2025-05-21 19:43:00] [DEBUG] [CameraTuner] FloatParameterWidget created: Red [0.0–1.0]
+[2025-05-21 19:43:00] [DEBUG] [CameraTuner] FloatParameterWidget created: Green [0.0–1.0]
+[2025-05-21 19:43:00] [DEBUG] [CameraTuner] FloatParameterWidget created: Blue [0.0–1.0]
+[2025-05-21 19:43:00] [DEBUG] [CameraTuner] FloatParameterWidget created: Rotation X [0.0–360.0]
+[2025-05-21 19:43:00] [DEBUG] [CameraTuner] FloatParameterWidget created: Rotation Y [0.0–360.0]
+[2025-05-21 19:43:00] [DEBUG] [CameraTuner] FloatParameterWidget created: Zoom [0.1–5.0]
+[2025-05-21 19:43:00] [DEBUG] [CameraTuner] [Rotation X] Callback registered: <bound method ComprehensiveExample.update_model_view of <__main__.ComprehensiveExample object at 0x7468668bbfd0>>
+[2025-05-21 19:43:00] [DEBUG] [CameraTuner] [Rotation Y] Callback registered: <bound method ComprehensiveExample.update_model_view of <__main__.ComprehensiveExample object at 0x7468668bbfd0>>
+[2025-05-21 19:43:00] [DEBUG] [CameraTuner] [Zoom] Callback registered: <bound method ComprehensiveExample.update_model_view of <__main__.ComprehensiveExample object at 0x7468668bbfd0>>
+[2025-05-21 19:43:00] [DEBUG] [CameraTuner] FloatParameterWidget created: Speed [0.1–5.0]
+[2025-05-21 19:43:00] [DEBUG] [CameraTuner] FloatParameterWidget created: Amplitude [0.0–10.0]
+[2025-05-21 19:43:00] [DEBUG] [CameraTuner] FloatParameterWidget created: Sine Wave [-10.0–10.0]
+[2025-05-21 19:43:00] [DEBUG] [CameraTuner] FloatParameterWidget created: Cosine Wave [-10.0–10.0]
+[2025-05-21 19:43:00] [DEBUG] [CameraTuner] FloatParameterWidget created: Combined [-10.0–10.0]
+[2025-05-21 19:43:00] [DEBUG] [CameraTuner] FloatParameterWidget created: Refresh Rate (Hz) [1.0–60.0]
+[2025-05-21 19:43:21] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 19:43:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Basic Float [0.0–1.0]
+[2025-05-21 19:43:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Wide Range Float [-100.0–100.0]
+[2025-05-21 19:43:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Precise Float [0.0–0.1]
+[2025-05-21 19:43:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Red [0.0–1.0]
+[2025-05-21 19:43:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Green [0.0–1.0]
+[2025-05-21 19:43:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Blue [0.0–1.0]
+[2025-05-21 19:43:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Rotation X [0.0–360.0]
+[2025-05-21 19:43:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Rotation Y [0.0–360.0]
+[2025-05-21 19:43:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Zoom [0.1–5.0]
+[2025-05-21 19:43:21] [DEBUG] [CameraTuner] [Rotation X] Callback registered: <bound method ComprehensiveExample.update_model_view of <__main__.ComprehensiveExample object at 0x74f58e9a3fd0>>
+[2025-05-21 19:43:21] [DEBUG] [CameraTuner] [Rotation Y] Callback registered: <bound method ComprehensiveExample.update_model_view of <__main__.ComprehensiveExample object at 0x74f58e9a3fd0>>
+[2025-05-21 19:43:21] [DEBUG] [CameraTuner] [Zoom] Callback registered: <bound method ComprehensiveExample.update_model_view of <__main__.ComprehensiveExample object at 0x74f58e9a3fd0>>
+[2025-05-21 19:43:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Speed [0.1–5.0]
+[2025-05-21 19:43:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Amplitude [0.0–10.0]
+[2025-05-21 19:43:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Sine Wave [-10.0–10.0]
+[2025-05-21 19:43:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Cosine Wave [-10.0–10.0]
+[2025-05-21 19:43:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Combined [-10.0–10.0]
+[2025-05-21 19:43:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Refresh Rate (Hz) [1.0–60.0]
+[2025-05-21 19:43:33] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 19:43:33] [DEBUG] [CameraTuner] FloatParameterWidget created: Basic Float [0.0–1.0]
+[2025-05-21 19:43:33] [DEBUG] [CameraTuner] FloatParameterWidget created: Wide Range Float [-100.0–100.0]
+[2025-05-21 19:43:33] [DEBUG] [CameraTuner] FloatParameterWidget created: Precise Float [0.0–0.1]
+[2025-05-21 19:43:33] [DEBUG] [CameraTuner] FloatParameterWidget created: Red [0.0–1.0]
+[2025-05-21 19:43:33] [DEBUG] [CameraTuner] FloatParameterWidget created: Green [0.0–1.0]
+[2025-05-21 19:43:33] [DEBUG] [CameraTuner] FloatParameterWidget created: Blue [0.0–1.0]
+[2025-05-21 19:43:33] [DEBUG] [CameraTuner] FloatParameterWidget created: Rotation X [0.0–360.0]
+[2025-05-21 19:43:33] [DEBUG] [CameraTuner] FloatParameterWidget created: Rotation Y [0.0–360.0]
+[2025-05-21 19:43:33] [DEBUG] [CameraTuner] FloatParameterWidget created: Zoom [0.1–5.0]
+[2025-05-21 19:43:33] [DEBUG] [CameraTuner] [Rotation X] Callback registered: <bound method ComprehensiveExample.update_model_view of <__main__.ComprehensiveExample object at 0x723b5ec9bfd0>>
+[2025-05-21 19:43:33] [DEBUG] [CameraTuner] [Rotation Y] Callback registered: <bound method ComprehensiveExample.update_model_view of <__main__.ComprehensiveExample object at 0x723b5ec9bfd0>>
+[2025-05-21 19:43:33] [DEBUG] [CameraTuner] [Zoom] Callback registered: <bound method ComprehensiveExample.update_model_view of <__main__.ComprehensiveExample object at 0x723b5ec9bfd0>>
+[2025-05-21 19:43:33] [DEBUG] [CameraTuner] FloatParameterWidget created: Speed [0.1–5.0]
+[2025-05-21 19:43:33] [DEBUG] [CameraTuner] FloatParameterWidget created: Amplitude [0.0–10.0]
+[2025-05-21 19:43:33] [DEBUG] [CameraTuner] FloatParameterWidget created: Sine Wave [-10.0–10.0]
+[2025-05-21 19:43:33] [DEBUG] [CameraTuner] FloatParameterWidget created: Cosine Wave [-10.0–10.0]
+[2025-05-21 19:43:33] [DEBUG] [CameraTuner] FloatParameterWidget created: Combined [-10.0–10.0]
+[2025-05-21 19:43:33] [DEBUG] [CameraTuner] FloatParameterWidget created: Refresh Rate (Hz) [1.0–60.0]
+[2025-05-21 19:43:52] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 19:43:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Basic Float [0.0–1.0]
+[2025-05-21 19:43:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Wide Range Float [-100.0–100.0]
+[2025-05-21 19:43:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Precise Float [0.0–0.1]
+[2025-05-21 19:43:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Red [0.0–1.0]
+[2025-05-21 19:43:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Green [0.0–1.0]
+[2025-05-21 19:43:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Blue [0.0–1.0]
+[2025-05-21 19:43:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Rotation X [0.0–360.0]
+[2025-05-21 19:43:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Rotation Y [0.0–360.0]
+[2025-05-21 19:43:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Zoom [0.1–5.0]
+[2025-05-21 19:43:52] [DEBUG] [CameraTuner] [Rotation X] Callback registered: <bound method ComprehensiveExample.update_model_view of <__main__.ComprehensiveExample object at 0x79eabcf8bfd0>>
+[2025-05-21 19:43:52] [DEBUG] [CameraTuner] [Rotation Y] Callback registered: <bound method ComprehensiveExample.update_model_view of <__main__.ComprehensiveExample object at 0x79eabcf8bfd0>>
+[2025-05-21 19:43:52] [DEBUG] [CameraTuner] [Zoom] Callback registered: <bound method ComprehensiveExample.update_model_view of <__main__.ComprehensiveExample object at 0x79eabcf8bfd0>>
+[2025-05-21 19:43:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Speed [0.1–5.0]
+[2025-05-21 19:43:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Amplitude [0.0–10.0]
+[2025-05-21 19:43:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Sine Wave [-10.0–10.0]
+[2025-05-21 19:43:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Cosine Wave [-10.0–10.0]
+[2025-05-21 19:43:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Combined [-10.0–10.0]
+[2025-05-21 19:43:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Refresh Rate (Hz) [1.0–60.0]
+[2025-05-21 19:44:22] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 19:44:23] [DEBUG] [CameraTuner] FloatParameterWidget created: Basic Float [0.0–1.0]
+[2025-05-21 19:44:23] [DEBUG] [CameraTuner] FloatParameterWidget created: Wide Range Float [-100.0–100.0]
+[2025-05-21 19:44:23] [DEBUG] [CameraTuner] FloatParameterWidget created: Precise Float [0.0–0.1]
+[2025-05-21 19:44:23] [DEBUG] [CameraTuner] FloatParameterWidget created: Red [0.0–1.0]
+[2025-05-21 19:44:23] [DEBUG] [CameraTuner] FloatParameterWidget created: Green [0.0–1.0]
+[2025-05-21 19:44:23] [DEBUG] [CameraTuner] FloatParameterWidget created: Blue [0.0–1.0]
+[2025-05-21 19:44:23] [DEBUG] [CameraTuner] FloatParameterWidget created: Rotation X [0.0–360.0]
+[2025-05-21 19:44:23] [DEBUG] [CameraTuner] FloatParameterWidget created: Rotation Y [0.0–360.0]
+[2025-05-21 19:44:23] [DEBUG] [CameraTuner] FloatParameterWidget created: Zoom [0.1–5.0]
+[2025-05-21 19:44:23] [DEBUG] [CameraTuner] [Rotation X] Callback registered: <bound method ComprehensiveExample.update_model_view of <__main__.ComprehensiveExample object at 0x79fbb747ffd0>>
+[2025-05-21 19:44:23] [DEBUG] [CameraTuner] [Rotation Y] Callback registered: <bound method ComprehensiveExample.update_model_view of <__main__.ComprehensiveExample object at 0x79fbb747ffd0>>
+[2025-05-21 19:44:23] [DEBUG] [CameraTuner] [Zoom] Callback registered: <bound method ComprehensiveExample.update_model_view of <__main__.ComprehensiveExample object at 0x79fbb747ffd0>>
+[2025-05-21 19:44:23] [DEBUG] [CameraTuner] FloatParameterWidget created: Speed [0.1–5.0]
+[2025-05-21 19:44:23] [DEBUG] [CameraTuner] FloatParameterWidget created: Amplitude [0.0–10.0]
+[2025-05-21 19:44:23] [DEBUG] [CameraTuner] FloatParameterWidget created: Sine Wave [-10.0–10.0]
+[2025-05-21 19:44:23] [DEBUG] [CameraTuner] FloatParameterWidget created: Cosine Wave [-10.0–10.0]
+[2025-05-21 19:44:23] [DEBUG] [CameraTuner] FloatParameterWidget created: Combined [-10.0–10.0]
+[2025-05-21 19:44:23] [DEBUG] [CameraTuner] FloatParameterWidget created: Refresh Rate (Hz) [1.0–60.0]
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0512
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0517
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.053700000000000005
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0557
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.057600000000000005
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0591
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0606
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0621
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0631
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0645
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0655
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0665
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0675
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.068
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0685
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.069
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0695
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.07
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0714
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0729
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.07390000000000001
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.07540000000000001
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.07590000000000001
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.07640000000000001
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.07680000000000001
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.07730000000000001
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.07680000000000001
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.07640000000000001
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.07490000000000001
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0729
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.069
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0655
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0606
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0567
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.053200000000000004
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.049300000000000004
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0468
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0438
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0414
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.039400000000000004
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.038400000000000004
+[2025-05-21 19:44:31] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0379
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → 24.0
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → 23.0
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → 22.0
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → 21.0
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → 19.0
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → 18.0
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → 16.0
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → 14.0
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → 12.0
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → 9.5
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → 7.5
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → 5.5
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → 3.5
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → 2.5
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → 0.5
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → -1.5
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → -3.5
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → -5.5
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → -7.5
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → -9.5
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → -7.5
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → -6.5
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → -2.5
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → 1.5
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → 7.5
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → 13.0
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → 16.0
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → 19.0
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → 22.0
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → 23.0
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → 24.0
+[2025-05-21 19:44:32] [DEBUG] [CameraTuner] [Wide Range Float] Slider changed → 25.0
+[2025-05-21 19:44:52] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 19:44:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Basic Float [0.0–1.0]
+[2025-05-21 19:44:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Wide Range Float [-100.0–100.0]
+[2025-05-21 19:44:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Precise Float [0.0–0.1]
+[2025-05-21 19:44:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Red [0.0–1.0]
+[2025-05-21 19:44:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Green [0.0–1.0]
+[2025-05-21 19:44:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Blue [0.0–1.0]
+[2025-05-21 19:45:01] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 19:45:01] [DEBUG] [CameraTuner] FloatParameterWidget created: Basic Float [0.0–1.0]
+[2025-05-21 19:45:01] [DEBUG] [CameraTuner] FloatParameterWidget created: Wide Range Float [-100.0–100.0]
+[2025-05-21 19:45:01] [DEBUG] [CameraTuner] FloatParameterWidget created: Precise Float [0.0–0.1]
+[2025-05-21 19:45:01] [DEBUG] [CameraTuner] FloatParameterWidget created: Red [0.0–1.0]
+[2025-05-21 19:45:01] [DEBUG] [CameraTuner] FloatParameterWidget created: Green [0.0–1.0]
+[2025-05-21 19:45:01] [DEBUG] [CameraTuner] FloatParameterWidget created: Blue [0.0–1.0]
+[2025-05-21 19:45:01] [DEBUG] [CameraTuner] FloatParameterWidget created: Speed [0.1–5.0]
+[2025-05-21 19:45:01] [DEBUG] [CameraTuner] FloatParameterWidget created: Amplitude [0.0–10.0]
+[2025-05-21 19:45:01] [DEBUG] [CameraTuner] FloatParameterWidget created: Sine Wave [-10.0–10.0]
+[2025-05-21 19:45:01] [DEBUG] [CameraTuner] FloatParameterWidget created: Cosine Wave [-10.0–10.0]
+[2025-05-21 19:45:01] [DEBUG] [CameraTuner] FloatParameterWidget created: Combined [-10.0–10.0]
+[2025-05-21 19:45:01] [DEBUG] [CameraTuner] FloatParameterWidget created: Refresh Rate (Hz) [1.0–60.0]
+[2025-05-21 19:45:47] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 19:45:47] [DEBUG] [CameraTuner] FloatParameterWidget created: Basic Float [0.0–1.0]
+[2025-05-21 19:45:47] [DEBUG] [CameraTuner] FloatParameterWidget created: Wide Range Float [-100.0–100.0]
+[2025-05-21 19:45:47] [DEBUG] [CameraTuner] FloatParameterWidget created: Precise Float [0.0–0.1]
+[2025-05-21 19:45:47] [DEBUG] [CameraTuner] FloatParameterWidget created: Red [0.0–1.0]
+[2025-05-21 19:45:47] [DEBUG] [CameraTuner] FloatParameterWidget created: Green [0.0–1.0]
+[2025-05-21 19:45:47] [DEBUG] [CameraTuner] FloatParameterWidget created: Blue [0.0–1.0]
+[2025-05-21 19:45:47] [DEBUG] [CameraTuner] FloatParameterWidget created: Speed [0.1–5.0]
+[2025-05-21 19:45:47] [DEBUG] [CameraTuner] FloatParameterWidget created: Amplitude [0.0–10.0]
+[2025-05-21 19:45:47] [DEBUG] [CameraTuner] FloatParameterWidget created: Sine Wave [-10.0–10.0]
+[2025-05-21 19:45:47] [DEBUG] [CameraTuner] FloatParameterWidget created: Cosine Wave [-10.0–10.0]
+[2025-05-21 19:45:47] [DEBUG] [CameraTuner] FloatParameterWidget created: Combined [-10.0–10.0]
+[2025-05-21 19:45:47] [DEBUG] [CameraTuner] FloatParameterWidget created: Refresh Rate (Hz) [1.0–60.0]
+[2025-05-21 19:47:51] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 19:47:51] [DEBUG] [CameraTuner] FloatParameterWidget created: Basic Float [0.0–1.0]
+[2025-05-21 19:47:51] [DEBUG] [CameraTuner] FloatParameterWidget created: Wide Range Float [-100.0–100.0]
+[2025-05-21 19:47:51] [DEBUG] [CameraTuner] FloatParameterWidget created: Precise Float [0.0–0.1]
+[2025-05-21 19:47:51] [DEBUG] [CameraTuner] FloatParameterWidget created: Red [0.0–1.0]
+[2025-05-21 19:47:51] [DEBUG] [CameraTuner] FloatParameterWidget created: Green [0.0–1.0]
+[2025-05-21 19:47:51] [DEBUG] [CameraTuner] FloatParameterWidget created: Blue [0.0–1.0]
+[2025-05-21 19:47:51] [DEBUG] [CameraTuner] FloatParameterWidget created: Speed [0.1–5.0]
+[2025-05-21 19:47:51] [DEBUG] [CameraTuner] FloatParameterWidget created: Amplitude [0.0–10.0]
+[2025-05-21 19:47:51] [DEBUG] [CameraTuner] FloatParameterWidget created: Sine Wave [-10.0–10.0]
+[2025-05-21 19:47:51] [DEBUG] [CameraTuner] FloatParameterWidget created: Cosine Wave [-10.0–10.0]
+[2025-05-21 19:47:51] [DEBUG] [CameraTuner] FloatParameterWidget created: Combined [-10.0–10.0]
+[2025-05-21 19:47:51] [DEBUG] [CameraTuner] FloatParameterWidget created: Refresh Rate (Hz) [1.0–60.0]
+[2025-05-21 19:47:53] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 18.0
+[2025-05-21 19:47:53] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 17.0
+[2025-05-21 19:47:53] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 16.0
+[2025-05-21 19:47:53] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 15.0
+[2025-05-21 19:47:53] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 14.0
+[2025-05-21 19:47:53] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 13.0
+[2025-05-21 19:47:53] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 12.0
+[2025-05-21 19:47:53] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 11.0
+[2025-05-21 19:47:53] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 10.0
+[2025-05-21 19:47:53] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 9.0
+[2025-05-21 19:47:53] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 8.0
+[2025-05-21 19:47:53] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 7.0
+[2025-05-21 19:47:53] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 6.0
+[2025-05-21 19:47:53] [DEBUG] [CameraTuner] [Refresh Rate (Hz)] Slider changed → 5.0
+[2025-05-21 19:49:02] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 19:49:02] [DEBUG] [CameraTuner] FloatParameterWidget created: Basic Float [0.0–1.0]
+[2025-05-21 19:49:02] [DEBUG] [CameraTuner] FloatParameterWidget created: Wide Range Float [-100.0–100.0]
+[2025-05-21 19:49:02] [DEBUG] [CameraTuner] FloatParameterWidget created: Precise Float [0.0–0.1]
+[2025-05-21 19:49:02] [DEBUG] [CameraTuner] FloatParameterWidget created: Red [0.0–1.0]
+[2025-05-21 19:49:02] [DEBUG] [CameraTuner] FloatParameterWidget created: Green [0.0–1.0]
+[2025-05-21 19:49:02] [DEBUG] [CameraTuner] FloatParameterWidget created: Blue [0.0–1.0]
+[2025-05-21 19:49:02] [DEBUG] [CameraTuner] FloatParameterWidget created: Speed [0.1–5.0]
+[2025-05-21 19:49:02] [DEBUG] [CameraTuner] FloatParameterWidget created: Amplitude [0.0–10.0]
+[2025-05-21 19:49:02] [DEBUG] [CameraTuner] FloatParameterWidget created: Sine Wave [-10.0–10.0]
+[2025-05-21 19:49:02] [DEBUG] [CameraTuner] FloatParameterWidget created: Cosine Wave [-10.0–10.0]
+[2025-05-21 19:49:02] [DEBUG] [CameraTuner] FloatParameterWidget created: Combined [-10.0–10.0]
+[2025-05-21 19:49:02] [DEBUG] [CameraTuner] FloatParameterWidget created: Refresh Rate (Hz) [1.0–60.0]
+[2025-05-21 19:49:13] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 19:49:14] [DEBUG] [CameraTuner] FloatParameterWidget created: Basic Float [0.0–1.0]
+[2025-05-21 19:49:14] [DEBUG] [CameraTuner] FloatParameterWidget created: Wide Range Float [-100.0–100.0]
+[2025-05-21 19:49:14] [DEBUG] [CameraTuner] FloatParameterWidget created: Precise Float [0.0–0.1]
+[2025-05-21 19:49:14] [DEBUG] [CameraTuner] FloatParameterWidget created: Red [0.0–1.0]
+[2025-05-21 19:49:14] [DEBUG] [CameraTuner] FloatParameterWidget created: Green [0.0–1.0]
+[2025-05-21 19:49:14] [DEBUG] [CameraTuner] FloatParameterWidget created: Blue [0.0–1.0]
+[2025-05-21 19:49:14] [DEBUG] [CameraTuner] FloatParameterWidget created: Speed [0.1–5.0]
+[2025-05-21 19:49:14] [DEBUG] [CameraTuner] FloatParameterWidget created: Amplitude [0.0–10.0]
+[2025-05-21 19:49:14] [DEBUG] [CameraTuner] FloatParameterWidget created: Sine Wave [-10.0–10.0]
+[2025-05-21 19:49:14] [DEBUG] [CameraTuner] FloatParameterWidget created: Cosine Wave [-10.0–10.0]
+[2025-05-21 19:49:14] [DEBUG] [CameraTuner] FloatParameterWidget created: Combined [-10.0–10.0]
+[2025-05-21 19:49:14] [DEBUG] [CameraTuner] FloatParameterWidget created: Refresh Rate (Hz) [1.0–60.0]
+[2025-05-21 19:49:42] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 19:49:42] [DEBUG] [CameraTuner] FloatParameterWidget created: Basic Float [0.0–1.0]
+[2025-05-21 19:49:42] [DEBUG] [CameraTuner] FloatParameterWidget created: Wide Range Float [-100.0–100.0]
+[2025-05-21 19:49:42] [DEBUG] [CameraTuner] FloatParameterWidget created: Precise Float [0.0–0.1]
+[2025-05-21 19:49:42] [DEBUG] [CameraTuner] FloatParameterWidget created: Red [0.0–1.0]
+[2025-05-21 19:49:42] [DEBUG] [CameraTuner] FloatParameterWidget created: Green [0.0–1.0]
+[2025-05-21 19:49:42] [DEBUG] [CameraTuner] FloatParameterWidget created: Blue [0.0–1.0]
+[2025-05-21 19:49:42] [DEBUG] [CameraTuner] FloatParameterWidget created: Speed [0.1–5.0]
+[2025-05-21 19:49:42] [DEBUG] [CameraTuner] FloatParameterWidget created: Amplitude [0.0–10.0]
+[2025-05-21 19:49:42] [DEBUG] [CameraTuner] FloatParameterWidget created: Sine Wave [-10.0–10.0]
+[2025-05-21 19:49:42] [DEBUG] [CameraTuner] FloatParameterWidget created: Cosine Wave [-10.0–10.0]
+[2025-05-21 19:49:42] [DEBUG] [CameraTuner] FloatParameterWidget created: Combined [-10.0–10.0]
+[2025-05-21 19:49:42] [DEBUG] [CameraTuner] FloatParameterWidget created: Refresh Rate (Hz) [1.0–60.0]
+[2025-05-21 19:49:46] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 19:49:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Basic Float [0.0–1.0]
+[2025-05-21 19:49:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Wide Range Float [-100.0–100.0]
+[2025-05-21 19:49:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Precise Float [0.0–0.1]
+[2025-05-21 19:49:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Red [0.0–1.0]
+[2025-05-21 19:49:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Green [0.0–1.0]
+[2025-05-21 19:49:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Blue [0.0–1.0]
+[2025-05-21 19:49:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Speed [0.1–5.0]
+[2025-05-21 19:49:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Amplitude [0.0–10.0]
+[2025-05-21 19:49:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Sine Wave [-10.0–10.0]
+[2025-05-21 19:49:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Cosine Wave [-10.0–10.0]
+[2025-05-21 19:49:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Combined [-10.0–10.0]
+[2025-05-21 19:49:46] [DEBUG] [CameraTuner] FloatParameterWidget created: Refresh Rate (Hz) [1.0–60.0]
+[2025-05-21 19:50:05] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 19:50:06] [DEBUG] [CameraTuner] FloatParameterWidget created: Basic Float [0.0–1.0]
+[2025-05-21 19:50:06] [DEBUG] [CameraTuner] FloatParameterWidget created: Wide Range Float [-100.0–100.0]
+[2025-05-21 19:50:06] [DEBUG] [CameraTuner] FloatParameterWidget created: Precise Float [0.0–0.1]
+[2025-05-21 19:50:06] [DEBUG] [CameraTuner] FloatParameterWidget created: Red [0.0–1.0]
+[2025-05-21 19:50:06] [DEBUG] [CameraTuner] FloatParameterWidget created: Green [0.0–1.0]
+[2025-05-21 19:50:06] [DEBUG] [CameraTuner] FloatParameterWidget created: Blue [0.0–1.0]
+[2025-05-21 19:50:06] [DEBUG] [CameraTuner] FloatParameterWidget created: Speed [0.1–5.0]
+[2025-05-21 19:50:06] [DEBUG] [CameraTuner] FloatParameterWidget created: Amplitude [0.0–10.0]
+[2025-05-21 19:50:06] [DEBUG] [CameraTuner] FloatParameterWidget created: Sine Wave [-10.0–10.0]
+[2025-05-21 19:50:06] [DEBUG] [CameraTuner] FloatParameterWidget created: Cosine Wave [-10.0–10.0]
+[2025-05-21 19:50:06] [DEBUG] [CameraTuner] FloatParameterWidget created: Combined [-10.0–10.0]
+[2025-05-21 19:50:06] [DEBUG] [CameraTuner] FloatParameterWidget created: Refresh Rate (Hz) [1.0–60.0]
+[2025-05-21 19:50:55] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 19:50:55] [DEBUG] [CameraTuner] FloatParameterWidget created: Basic Float [0.0–1.0]
+[2025-05-21 19:50:55] [DEBUG] [CameraTuner] FloatParameterWidget created: Wide Range Float [-100.0–100.0]
+[2025-05-21 19:50:55] [DEBUG] [CameraTuner] FloatParameterWidget created: Precise Float [0.0–0.1]
+[2025-05-21 19:50:55] [DEBUG] [CameraTuner] FloatParameterWidget created: Red [0.0–1.0]
+[2025-05-21 19:50:55] [DEBUG] [CameraTuner] FloatParameterWidget created: Green [0.0–1.0]
+[2025-05-21 19:50:55] [DEBUG] [CameraTuner] FloatParameterWidget created: Blue [0.0–1.0]
+[2025-05-21 19:50:55] [DEBUG] [CameraTuner] FloatParameterWidget created: Speed [0.1–5.0]
+[2025-05-21 19:50:55] [DEBUG] [CameraTuner] FloatParameterWidget created: Amplitude [0.0–10.0]
+[2025-05-21 19:50:55] [DEBUG] [CameraTuner] FloatParameterWidget created: Sine Wave [-10.0–10.0]
+[2025-05-21 19:50:55] [DEBUG] [CameraTuner] FloatParameterWidget created: Cosine Wave [-10.0–10.0]
+[2025-05-21 19:50:55] [DEBUG] [CameraTuner] FloatParameterWidget created: Combined [-10.0–10.0]
+[2025-05-21 19:50:55] [DEBUG] [CameraTuner] FloatParameterWidget created: Refresh Rate (Hz) [1.0–60.0]
+[2025-05-21 19:51:28] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 19:51:28] [DEBUG] [CameraTuner] FloatParameterWidget created: Basic Float [0.0–1.0]
+[2025-05-21 19:51:28] [DEBUG] [CameraTuner] FloatParameterWidget created: Wide Range Float [-100.0–100.0]
+[2025-05-21 19:51:28] [DEBUG] [CameraTuner] FloatParameterWidget created: Precise Float [0.0–0.1]
+[2025-05-21 19:51:28] [DEBUG] [CameraTuner] FloatParameterWidget created: Red [0.0–1.0]
+[2025-05-21 19:51:28] [DEBUG] [CameraTuner] FloatParameterWidget created: Green [0.0–1.0]
+[2025-05-21 19:51:28] [DEBUG] [CameraTuner] FloatParameterWidget created: Blue [0.0–1.0]
+[2025-05-21 19:51:28] [DEBUG] [CameraTuner] FloatParameterWidget created: Speed [0.1–5.0]
+[2025-05-21 19:51:28] [DEBUG] [CameraTuner] FloatParameterWidget created: Amplitude [0.0–10.0]
+[2025-05-21 19:51:28] [DEBUG] [CameraTuner] FloatParameterWidget created: Sine Wave [-10.0–10.0]
+[2025-05-21 19:51:28] [DEBUG] [CameraTuner] FloatParameterWidget created: Cosine Wave [-10.0–10.0]
+[2025-05-21 19:51:28] [DEBUG] [CameraTuner] FloatParameterWidget created: Combined [-10.0–10.0]
+[2025-05-21 19:51:28] [DEBUG] [CameraTuner] FloatParameterWidget created: Refresh Rate (Hz) [1.0–60.0]
+[2025-05-21 19:51:51] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 19:51:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Basic Float [0.0–1.0]
+[2025-05-21 19:51:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Wide Range Float [-100.0–100.0]
+[2025-05-21 19:51:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Precise Float [0.0–0.1]
+[2025-05-21 19:51:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Red [0.0–1.0]
+[2025-05-21 19:51:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Green [0.0–1.0]
+[2025-05-21 19:51:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Blue [0.0–1.0]
+[2025-05-21 19:51:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Speed [0.1–5.0]
+[2025-05-21 19:51:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Amplitude [0.0–10.0]
+[2025-05-21 19:51:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Sine Wave [-10.0–10.0]
+[2025-05-21 19:51:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Cosine Wave [-10.0–10.0]
+[2025-05-21 19:51:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Combined [-10.0–10.0]
+[2025-05-21 19:51:52] [DEBUG] [CameraTuner] FloatParameterWidget created: Refresh Rate (Hz) [1.0–60.0]
+[2025-05-21 19:52:02] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 19:52:02] [DEBUG] [CameraTuner] FloatParameterWidget created: Basic Float [0.0–1.0]
+[2025-05-21 19:52:02] [DEBUG] [CameraTuner] FloatParameterWidget created: Wide Range Float [-100.0–100.0]
+[2025-05-21 19:52:02] [DEBUG] [CameraTuner] FloatParameterWidget created: Precise Float [0.0–0.1]
+[2025-05-21 19:52:02] [DEBUG] [CameraTuner] FloatParameterWidget created: Red [0.0–1.0]
+[2025-05-21 19:52:02] [DEBUG] [CameraTuner] FloatParameterWidget created: Green [0.0–1.0]
+[2025-05-21 19:52:02] [DEBUG] [CameraTuner] FloatParameterWidget created: Blue [0.0–1.0]
+[2025-05-21 19:52:02] [DEBUG] [CameraTuner] FloatParameterWidget created: Speed [0.1–5.0]
+[2025-05-21 19:52:02] [DEBUG] [CameraTuner] FloatParameterWidget created: Amplitude [0.0–10.0]
+[2025-05-21 19:52:02] [DEBUG] [CameraTuner] FloatParameterWidget created: Sine Wave [-10.0–10.0]
+[2025-05-21 19:52:02] [DEBUG] [CameraTuner] FloatParameterWidget created: Cosine Wave [-10.0–10.0]
+[2025-05-21 19:52:02] [DEBUG] [CameraTuner] FloatParameterWidget created: Combined [-10.0–10.0]
+[2025-05-21 19:52:02] [DEBUG] [CameraTuner] FloatParameterWidget created: Refresh Rate (Hz) [1.0–60.0]
+[2025-05-21 19:52:14] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 19:52:15] [DEBUG] [CameraTuner] FloatParameterWidget created: Basic Float [0.0–1.0]
+[2025-05-21 19:52:15] [DEBUG] [CameraTuner] FloatParameterWidget created: Wide Range Float [-100.0–100.0]
+[2025-05-21 19:52:15] [DEBUG] [CameraTuner] FloatParameterWidget created: Precise Float [0.0–0.1]
+[2025-05-21 19:52:15] [DEBUG] [CameraTuner] FloatParameterWidget created: Red [0.0–1.0]
+[2025-05-21 19:52:15] [DEBUG] [CameraTuner] FloatParameterWidget created: Green [0.0–1.0]
+[2025-05-21 19:52:15] [DEBUG] [CameraTuner] FloatParameterWidget created: Blue [0.0–1.0]
+[2025-05-21 19:52:15] [DEBUG] [CameraTuner] FloatParameterWidget created: Speed [0.1–5.0]
+[2025-05-21 19:52:15] [DEBUG] [CameraTuner] FloatParameterWidget created: Amplitude [0.0–10.0]
+[2025-05-21 19:52:15] [DEBUG] [CameraTuner] FloatParameterWidget created: Sine Wave [-10.0–10.0]
+[2025-05-21 19:52:15] [DEBUG] [CameraTuner] FloatParameterWidget created: Cosine Wave [-10.0–10.0]
+[2025-05-21 19:52:15] [DEBUG] [CameraTuner] FloatParameterWidget created: Combined [-10.0–10.0]
+[2025-05-21 19:52:15] [DEBUG] [CameraTuner] FloatParameterWidget created: Refresh Rate (Hz) [1.0–60.0]
+[2025-05-21 19:52:16] [DEBUG] [CameraTuner] [Speed] Slider changed → 1.1
+[2025-05-21 19:52:16] [DEBUG] [CameraTuner] [Speed] Slider changed → 1.2000000000000002
+[2025-05-21 19:52:16] [DEBUG] [CameraTuner] [Speed] Slider changed → 1.3000000000000003
+[2025-05-21 19:52:16] [DEBUG] [CameraTuner] [Speed] Slider changed → 1.4000000000000001
+[2025-05-21 19:52:16] [DEBUG] [CameraTuner] [Speed] Slider changed → 1.5000000000000002
+[2025-05-21 19:52:16] [DEBUG] [CameraTuner] [Speed] Slider changed → 1.6
+[2025-05-21 19:52:16] [DEBUG] [CameraTuner] [Speed] Slider changed → 1.7000000000000002
+[2025-05-21 19:52:16] [DEBUG] [CameraTuner] [Speed] Slider changed → 1.8000000000000003
+[2025-05-21 19:52:16] [DEBUG] [CameraTuner] [Speed] Slider changed → 1.9000000000000001
+[2025-05-21 19:52:16] [DEBUG] [CameraTuner] [Speed] Slider changed → 2.0
+[2025-05-21 19:52:16] [DEBUG] [CameraTuner] [Speed] Slider changed → 2.1
+[2025-05-21 19:52:16] [DEBUG] [CameraTuner] [Speed] Slider changed → 2.2
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.050800000000000005
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.051300000000000005
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0519
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0524
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0534
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.056100000000000004
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.057100000000000005
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0582
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.059800000000000006
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.062400000000000004
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0646
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0656
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.06720000000000001
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0698
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0709
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.07200000000000001
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.07300000000000001
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0741
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0751
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0767
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.07780000000000001
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.07880000000000001
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0794
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0804
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.081
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0815
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0825
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0815
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.07880000000000001
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0767
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.07350000000000001
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0693
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.064
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0603
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.055
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.050300000000000004
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0471
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.041800000000000004
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0392
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.0381
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.036500000000000005
+[2025-05-21 19:52:23] [DEBUG] [CameraTuner] [Precise Float] Slider changed → 0.036000000000000004
+[2025-05-21 19:52:38] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 19:52:38] [DEBUG] [CameraTuner] FloatParameterWidget created: Basic Float [0.0–1.0]
+[2025-05-21 19:52:38] [DEBUG] [CameraTuner] FloatParameterWidget created: Wide Range Float [-100.0–100.0]
+[2025-05-21 19:52:38] [DEBUG] [CameraTuner] FloatParameterWidget created: Precise Float [0.0–0.1]
+[2025-05-21 19:52:38] [DEBUG] [CameraTuner] FloatParameterWidget created: Red [0.0–1.0]
+[2025-05-21 19:52:38] [DEBUG] [CameraTuner] FloatParameterWidget created: Green [0.0–1.0]
+[2025-05-21 19:52:38] [DEBUG] [CameraTuner] FloatParameterWidget created: Blue [0.0–1.0]
+[2025-05-21 19:52:38] [DEBUG] [CameraTuner] FloatParameterWidget created: Speed [0.1–5.0]
+[2025-05-21 19:52:38] [DEBUG] [CameraTuner] FloatParameterWidget created: Amplitude [0.0–10.0]
+[2025-05-21 19:52:38] [DEBUG] [CameraTuner] FloatParameterWidget created: Sine Wave [-10.0–10.0]
+[2025-05-21 19:52:38] [DEBUG] [CameraTuner] FloatParameterWidget created: Cosine Wave [-10.0–10.0]
+[2025-05-21 19:52:38] [DEBUG] [CameraTuner] FloatParameterWidget created: Combined [-10.0–10.0]
+[2025-05-21 19:52:38] [DEBUG] [CameraTuner] FloatParameterWidget created: Refresh Rate (Hz) [1.0–60.0]
+[2025-05-21 20:21:21] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 20:26:07] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 20:26:29] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 20:31:13] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 20:31:21] [INFO] [CameraTuner] Logger initialized. Console level: 20, File level: 10
+[2025-05-21 20:31:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Basic Float [0.0–1.0]
+[2025-05-21 20:31:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Wide Range Float [-100.0–100.0]
+[2025-05-21 20:31:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Precise Float [0.0–0.1]
+[2025-05-21 20:31:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Red [0.0–1.0]
+[2025-05-21 20:31:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Green [0.0–1.0]
+[2025-05-21 20:31:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Blue [0.0–1.0]
+[2025-05-21 20:31:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Speed [0.1–5.0]
+[2025-05-21 20:31:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Amplitude [0.0–10.0]
+[2025-05-21 20:31:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Sine Wave [-10.0–10.0]
+[2025-05-21 20:31:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Cosine Wave [-10.0–10.0]
+[2025-05-21 20:31:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Combined [-10.0–10.0]
+[2025-05-21 20:31:21] [DEBUG] [CameraTuner] FloatParameterWidget created: Refresh Rate (Hz) [1.0–60.0]

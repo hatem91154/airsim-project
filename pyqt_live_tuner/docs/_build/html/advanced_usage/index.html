@@ -1,0 +1,503 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Usage &mdash; Project name not set  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="API Reference" href="../api_reference.html" />
+    <link rel="prev" title="Examples" href="../examples/index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            Project name not set
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../usage.html">Usage Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/index.html">Examples</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Advanced Usage</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#architecture-overview">Architecture Overview</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#class-hierarchy">Class Hierarchy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#signal-flow">Signal Flow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#ui-layout">UI Layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#extending-the-library">Extending the Library</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#custom-parameter-widgets">Custom Parameter Widgets</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#custom-parameter-groups">Custom Parameter Groups</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#advanced-styling">Advanced Styling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#performance-optimization">Performance Optimization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#advanced-configuration-features">Advanced Configuration Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#integration-with-external-systems">Integration with External Systems</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../api_reference.html">API Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../configuration.html">Configuration Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../testing.html">Testing Guide</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Project name not set</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Advanced Usage</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/advanced_usage/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="advanced-usage">
+<h1>Advanced Usage<a class="headerlink" href="#advanced-usage" title="Link to this heading"></a></h1>
+<p>This section covers advanced topics and usage scenarios for PyQt Live Tuner.</p>
+<section id="architecture-overview">
+<h2>Architecture Overview<a class="headerlink" href="#architecture-overview" title="Link to this heading"></a></h2>
+<p>PyQt Live Tuner is designed with a modular architecture that consists of several key components:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>+------------------------------------------+
+|             ApplicationBuilder           |
+|                                          |
+|  Creates and configures the application  |
++------------------+---------------------+
+                   |
+                   | creates
+                   v
++------------------------------------------+
+|             MainApplication              |
+|                                          |
+|  Main window with menu and layout        |
++------------------+---------------------+
+                   |
+        +----------+-----------+
+        |                      |
+        v                      v
++---------------+    +------------------+
+| Parameters    |    | Configurations   |
+| Container     |    | Container        |
+|               |    |                  |
+| Scrollable    |    | Holds custom     |
+| area for      |    | widgets and      |
+| widgets       |    | displays         |
++-----+---------+    +------------------+
+      |
+      | contains
+      |
++-----v----------+
+|                |
+| +-----------+  |
+| | Parameter |  |
+| | Widgets   |  |
+| +-----------+  |
+|                |
+| +-----------+  |
+| | Parameter |  |
+| | Groups    |  |
+| +-----------+  |
+|                |
++----------------+
+</pre></div>
+</div>
+<ol class="arabic simple">
+<li><p><strong>ApplicationBuilder</strong>: The main entry point for creating the application. It initializes the QApplication instance and configures the dark theme.</p></li>
+<li><p><strong>MainApplication</strong>: The main window that hosts the parameter widgets and configuration widgets. It provides menu options for loading and saving configurations and manages the layout.</p></li>
+<li><p><strong>ParametersContainer</strong>: A scrollable container that manages parameter widgets and groups. It handles adding widgets, retrieving values, and applying configuration data.</p></li>
+<li><p><strong>ConfigurationsContainer</strong>: A container for custom widgets like displays, plots, or other UI elements that aren’t directly related to parameter tuning.</p></li>
+<li><p><strong>Parameter Widgets</strong>: Individual UI elements for different parameter types (float sliders, checkboxes, etc.).</p></li>
+<li><p><strong>Parameter Groups</strong>: Collections of related parameters that can be organized and manipulated together.</p></li>
+</ol>
+<section id="class-hierarchy">
+<h3>Class Hierarchy<a class="headerlink" href="#class-hierarchy" title="Link to this heading"></a></h3>
+<p><strong>Parameter Widgets Hierarchy</strong>:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>ParameterWidget (Abstract Base)
+├── FloatParameterWidget
+├── BoolParameterWidget
+├── DropdownParameterWidget
+├── StringParameterWidget
+└── ActionParameterWidget
+</pre></div>
+</div>
+<p><strong>Parameter Groups Hierarchy</strong>:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>ParameterGroupWidget (Base)
+├── LinkedParameterGroup
+└── IndependentGroupWidget
+</pre></div>
+</div>
+</section>
+<section id="signal-flow">
+<h3>Signal Flow<a class="headerlink" href="#signal-flow" title="Link to this heading"></a></h3>
+<p>The parameter change propagation follows this sequence:</p>
+<ol class="arabic simple">
+<li><p>User interacts with a parameter widget (e.g., moves a slider).</p></li>
+<li><p>The widget emits a <cite>valueChanged</cite> signal with the parameter name and new value.</p></li>
+<li><p>If the widget is part of a parameter group, the group also emits a <cite>groupChanged</cite> signal with the group name and all parameter values.</p></li>
+<li><p>Any registered callbacks are triggered with the updated values.</p></li>
+<li><p>Application logic processes these callbacks to implement the desired behavior.</p></li>
+</ol>
+<p>Here’s an example of this signal flow in action:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Create a parameter widget</span>
+<span class="n">slider</span> <span class="o">=</span> <span class="n">FloatParameterWidget</span><span class="p">(</span><span class="s2">&quot;Opacity&quot;</span><span class="p">,</span> <span class="p">{</span><span class="s2">&quot;min&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;max&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;step&quot;</span><span class="p">:</span> <span class="mf">0.01</span><span class="p">})</span>
+
+<span class="c1"># Create a callback function</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">on_opacity_change</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2"> changed to: </span><span class="si">{</span><span class="n">value</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="c1"># Update UI or application state</span>
+
+<span class="c1"># Register the callback</span>
+<span class="n">slider</span><span class="o">.</span><span class="n">register_callback</span><span class="p">(</span><span class="n">on_opacity_change</span><span class="p">)</span>
+
+<span class="c1"># When the user moves the slider, on_opacity_change is automatically called</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="ui-layout">
+<h2>UI Layout<a class="headerlink" href="#ui-layout" title="Link to this heading"></a></h2>
+<p>As seen in the screenshot, the PyQt Live Tuner interface is organized into several sections:</p>
+<ol class="arabic simple">
+<li><p><strong>Menu Bar</strong>: Contains File and other menus for configuration management.</p></li>
+<li><p><strong>Configuration Area</strong>: The top section displays custom widgets and information.</p></li>
+<li><p><strong>Parameters Area</strong>: The bottom section contains parameter widgets and groups.</p></li>
+</ol>
+<p>Each parameter in the interface is displayed with:
+- A label showing the parameter name
+- The appropriate input widget (slider, checkbox, dropdown)
+- For float parameters: a value display and reset button</p>
+<p>Parameter groups are displayed as collapsible panels with a header showing the group name.</p>
+</section>
+<section id="extending-the-library">
+<h2>Extending the Library<a class="headerlink" href="#extending-the-library" title="Link to this heading"></a></h2>
+<section id="custom-parameter-widgets">
+<h3>Custom Parameter Widgets<a class="headerlink" href="#custom-parameter-widgets" title="Link to this heading"></a></h3>
+<p>You can create custom parameter widgets by subclassing the <cite>ParameterWidget</cite> base class. Your custom widget must implement:</p>
+<ol class="arabic simple">
+<li><p><cite>__init__(self, name, config)</cite>: Initialize the widget with a name and configuration dictionary.</p></li>
+<li><p><cite>set_value(self, value)</cite>: Set the widget’s value.</p></li>
+<li><p><cite>get_value(self)</cite>: Return the widget’s current value.</p></li>
+<li><p><cite>register_callback(self, callback)</cite>: Register a function to be called when the value changes.</p></li>
+</ol>
+<p>Here’s a template for creating a custom parameter widget:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">PyQt5.QtCore</span><span class="w"> </span><span class="kn">import</span> <span class="n">pyqtSignal</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">pyqt_live_tuner.parameter_widgets</span><span class="w"> </span><span class="kn">import</span> <span class="n">ParameterWidget</span>
+
+<span class="k">class</span><span class="w"> </span><span class="nc">MyCustomWidget</span><span class="p">(</span><span class="n">ParameterWidget</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Custom parameter widget documentation.&quot;&quot;&quot;</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Custom&quot;</span><span class="p">,</span> <span class="n">config</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">config</span><span class="p">)</span>
+        <span class="n">config</span> <span class="o">=</span> <span class="n">config</span> <span class="ow">or</span> <span class="p">{}</span>
+
+        <span class="c1"># Initialize widget-specific attributes</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">my_value</span> <span class="o">=</span> <span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;initial&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+
+        <span class="c1"># Create and configure Qt widgets</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">my_qt_widget</span> <span class="o">=</span> <span class="n">MyQtWidget</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">my_qt_widget</span><span class="o">.</span><span class="n">valueChanged</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">on_widget_value_changed</span><span class="p">)</span>
+
+        <span class="c1"># Add widgets to layout</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">addWidget</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">my_qt_widget</span><span class="p">)</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">on_widget_value_changed</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Handle changes from the underlying Qt widget.&quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">my_value</span> <span class="o">=</span> <span class="n">value</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">valueChanged</span><span class="o">.</span><span class="n">emit</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">set_value</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Set the widget&#39;s value.&quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">value</span> <span class="o">!=</span> <span class="bp">self</span><span class="o">.</span><span class="n">my_value</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">my_value</span> <span class="o">=</span> <span class="n">value</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">my_qt_widget</span><span class="o">.</span><span class="n">setValue</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">get_value</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Get the widget&#39;s current value.&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">my_value</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">register_callback</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">callback</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Register a callback function for value changes.&quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">valueChanged</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">callback</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="custom-parameter-groups">
+<h3>Custom Parameter Groups<a class="headerlink" href="#custom-parameter-groups" title="Link to this heading"></a></h3>
+<p>Similarly, you can create custom parameter groups by subclassing <cite>ParameterGroupWidget</cite>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">pyqt_live_tuner.parameter_groups</span><span class="w"> </span><span class="kn">import</span> <span class="n">ParameterGroupWidget</span>
+
+<span class="k">class</span><span class="w"> </span><span class="nc">MyCustomGroup</span><span class="p">(</span><span class="n">ParameterGroupWidget</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Custom parameter group documentation.&quot;&quot;&quot;</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">title</span><span class="p">,</span> <span class="n">parent</span><span class="p">)</span>
+
+        <span class="c1"># Additional initialization code</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">custom_method</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Custom group functionality.&quot;&quot;&quot;</span>
+        <span class="c1"># Implement custom behavior</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="advanced-styling">
+<h2>Advanced Styling<a class="headerlink" href="#advanced-styling" title="Link to this heading"></a></h2>
+<p>While PyQt Live Tuner uses QDarkTheme by default, you can customize the appearance:</p>
+<ol class="arabic">
+<li><p><strong>Using Custom QSS</strong>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">PyQt5.QtCore</span><span class="w"> </span><span class="kn">import</span> <span class="n">QFile</span><span class="p">,</span> <span class="n">QTextStream</span>
+
+<span class="n">app</span> <span class="o">=</span> <span class="n">ApplicationBuilder</span><span class="p">()</span>
+<span class="n">style_file</span> <span class="o">=</span> <span class="n">QFile</span><span class="p">(</span><span class="s2">&quot;path/to/stylesheet.qss&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">style_file</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">QFile</span><span class="o">.</span><span class="n">ReadOnly</span> <span class="o">|</span> <span class="n">QFile</span><span class="o">.</span><span class="n">Text</span><span class="p">):</span>
+    <span class="n">stream</span> <span class="o">=</span> <span class="n">QTextStream</span><span class="p">(</span><span class="n">style_file</span><span class="p">)</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">_app</span><span class="o">.</span><span class="n">setStyleSheet</span><span class="p">(</span><span class="n">stream</span><span class="o">.</span><span class="n">readAll</span><span class="p">())</span>
+<span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Changing QDarkTheme Settings</strong>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">qdarktheme</span>
+
+<span class="c1"># Before creating the ApplicationBuilder</span>
+<span class="n">qdarktheme</span><span class="o">.</span><span class="n">setup_theme</span><span class="p">(</span><span class="s2">&quot;light&quot;</span><span class="p">)</span>  <span class="c1"># or &quot;dark&quot;, &quot;auto&quot;</span>
+
+<span class="n">app</span> <span class="o">=</span> <span class="n">ApplicationBuilder</span><span class="p">()</span>
+<span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Custom Widget-Specific Styling</strong>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">float_widget</span> <span class="o">=</span> <span class="n">FloatParameterWidget</span><span class="p">(</span><span class="s2">&quot;Styled Parameter&quot;</span><span class="p">)</span>
+<span class="n">float_widget</span><span class="o">.</span><span class="n">setStyleSheet</span><span class="p">(</span><span class="s2">&quot;QSlider { height: 20px; } QSlider::handle { background: red; }&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="performance-optimization">
+<h2>Performance Optimization<a class="headerlink" href="#performance-optimization" title="Link to this heading"></a></h2>
+<p>For applications with many parameters or complex calculations, consider these optimization strategies:</p>
+<ol class="arabic">
+<li><p><strong>Batch Processing</strong>: Group related parameters and process changes in batches.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Instead of processing individual parameters</span>
+<span class="n">param1</span><span class="o">.</span><span class="n">register_callback</span><span class="p">(</span><span class="n">update_process</span><span class="p">)</span>
+<span class="n">param2</span><span class="o">.</span><span class="n">register_callback</span><span class="p">(</span><span class="n">update_process</span><span class="p">)</span>
+
+<span class="c1"># Use a parameter group</span>
+<span class="n">group</span> <span class="o">=</span> <span class="n">LinkedParameterGroup</span><span class="p">(</span><span class="s2">&quot;Process Parameters&quot;</span><span class="p">)</span>
+<span class="n">group</span><span class="o">.</span><span class="n">add_parameter</span><span class="p">(</span><span class="n">param1</span><span class="p">)</span>
+<span class="n">group</span><span class="o">.</span><span class="n">add_parameter</span><span class="p">(</span><span class="n">param2</span><span class="p">)</span>
+<span class="n">group</span><span class="o">.</span><span class="n">register_callback</span><span class="p">(</span><span class="n">update_process_batch</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Throttling Updates</strong>: For computationally expensive operations, throttle the update frequency.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">PyQt5.QtCore</span><span class="w"> </span><span class="kn">import</span> <span class="n">QTimer</span>
+
+<span class="k">class</span><span class="w"> </span><span class="nc">ThrottledUpdater</span><span class="p">:</span>
+    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">update_func</span><span class="p">,</span> <span class="n">delay_ms</span><span class="o">=</span><span class="mi">100</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">update_func</span> <span class="o">=</span> <span class="n">update_func</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">delay</span> <span class="o">=</span> <span class="n">delay_ms</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">timer</span> <span class="o">=</span> <span class="n">QTimer</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">timer</span><span class="o">.</span><span class="n">setSingleShot</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">timer</span><span class="o">.</span><span class="n">timeout</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">do_update</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">pending_args</span> <span class="o">=</span> <span class="kc">None</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">schedule_update</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">pending_args</span> <span class="o">=</span> <span class="n">args</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">timer</span><span class="o">.</span><span class="n">isActive</span><span class="p">():</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">timer</span><span class="o">.</span><span class="n">start</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">delay</span><span class="p">)</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">do_update</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">pending_args</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">update_func</span><span class="p">(</span><span class="o">*</span><span class="bp">self</span><span class="o">.</span><span class="n">pending_args</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">pending_args</span> <span class="o">=</span> <span class="kc">None</span>
+
+<span class="c1"># Usage</span>
+<span class="n">updater</span> <span class="o">=</span> <span class="n">ThrottledUpdater</span><span class="p">(</span><span class="n">process_image</span><span class="p">)</span>
+<span class="n">param</span><span class="o">.</span><span class="n">register_callback</span><span class="p">(</span><span class="k">lambda</span> <span class="n">name</span><span class="p">,</span> <span class="n">value</span><span class="p">:</span> <span class="n">updater</span><span class="o">.</span><span class="n">schedule_update</span><span class="p">(</span><span class="n">value</span><span class="p">))</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Worker Threads</strong>: For long-running operations, use worker threads to keep the UI responsive.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">PyQt5.QtCore</span><span class="w"> </span><span class="kn">import</span> <span class="n">QThread</span><span class="p">,</span> <span class="n">pyqtSignal</span>
+
+<span class="k">class</span><span class="w"> </span><span class="nc">Worker</span><span class="p">(</span><span class="n">QThread</span><span class="p">):</span>
+    <span class="n">result_ready</span> <span class="o">=</span> <span class="n">pyqtSignal</span><span class="p">(</span><span class="nb">object</span><span class="p">)</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">func</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">func</span> <span class="o">=</span> <span class="n">func</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">args</span> <span class="o">=</span> <span class="n">args</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">kwargs</span> <span class="o">=</span> <span class="n">kwargs</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="bp">self</span><span class="o">.</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="bp">self</span><span class="o">.</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">result_ready</span><span class="o">.</span><span class="n">emit</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+
+<span class="c1"># Usage</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">on_param_change</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+    <span class="n">worker</span> <span class="o">=</span> <span class="n">Worker</span><span class="p">(</span><span class="n">process_data</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
+    <span class="n">worker</span><span class="o">.</span><span class="n">result_ready</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">update_ui</span><span class="p">)</span>
+    <span class="n">worker</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="advanced-configuration-features">
+<h2>Advanced Configuration Features<a class="headerlink" href="#advanced-configuration-features" title="Link to this heading"></a></h2>
+<ol class="arabic">
+<li><p><strong>Dynamic Configuration Loading</strong>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">json</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">load_config_for_scenario</span><span class="p">(</span><span class="n">scenario_name</span><span class="p">):</span>
+    <span class="n">file_path</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;configs/</span><span class="si">{</span><span class="n">scenario_name</span><span class="si">}</span><span class="s2">.json&quot;</span>
+    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">file_path</span><span class="p">):</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">{}</span>
+
+<span class="c1"># Usage</span>
+<span class="n">app</span> <span class="o">=</span> <span class="n">ApplicationBuilder</span><span class="p">()</span>
+
+<span class="c1"># Create parameter widgets with defaults</span>
+<span class="n">params</span> <span class="o">=</span> <span class="n">create_default_parameters</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">param</span> <span class="ow">in</span> <span class="n">params</span><span class="p">:</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">main_window</span><span class="o">.</span><span class="n">add_parameter</span><span class="p">(</span><span class="n">param</span><span class="p">)</span>
+
+<span class="c1"># Add a dropdown to select scenarios</span>
+<span class="n">scenarios</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;daylight&quot;</span><span class="p">,</span> <span class="s2">&quot;night&quot;</span><span class="p">,</span> <span class="s2">&quot;rainy&quot;</span><span class="p">]</span>
+<span class="n">scenario_selector</span> <span class="o">=</span> <span class="n">DropdownParameterWidget</span><span class="p">(</span><span class="s2">&quot;Scenario&quot;</span><span class="p">,</span> <span class="p">{</span><span class="s2">&quot;options&quot;</span><span class="p">:</span> <span class="n">scenarios</span><span class="p">})</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">on_scenario_change</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+    <span class="n">config</span> <span class="o">=</span> <span class="n">load_config_for_scenario</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">main_window</span><span class="o">.</span><span class="n">parameters_container</span><span class="o">.</span><span class="n">set_values</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
+
+<span class="n">scenario_selector</span><span class="o">.</span><span class="n">register_callback</span><span class="p">(</span><span class="n">on_scenario_change</span><span class="p">)</span>
+<span class="n">app</span><span class="o">.</span><span class="n">main_window</span><span class="o">.</span><span class="n">add_parameter</span><span class="p">(</span><span class="n">scenario_selector</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Auto-saving Configurations</strong>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">json</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">PyQt5.QtCore</span><span class="w"> </span><span class="kn">import</span> <span class="n">QTimer</span>
+
+<span class="k">class</span><span class="w"> </span><span class="nc">AutoSaver</span><span class="p">:</span>
+    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">container</span><span class="p">,</span> <span class="n">save_path</span><span class="p">,</span> <span class="n">interval_ms</span><span class="o">=</span><span class="mi">5000</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">container</span> <span class="o">=</span> <span class="n">container</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">save_path</span> <span class="o">=</span> <span class="n">save_path</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">timer</span> <span class="o">=</span> <span class="n">QTimer</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">timer</span><span class="o">.</span><span class="n">timeout</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">save</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">timer</span><span class="o">.</span><span class="n">start</span><span class="p">(</span><span class="n">interval_ms</span><span class="p">)</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">save</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">values</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">container</span><span class="o">.</span><span class="n">get_values</span><span class="p">()</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">save_path</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+            <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">values</span><span class="p">,</span> <span class="n">f</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+
+<span class="c1"># Usage</span>
+<span class="n">app</span> <span class="o">=</span> <span class="n">ApplicationBuilder</span><span class="p">()</span>
+<span class="c1"># Add parameters...</span>
+
+<span class="c1"># Setup auto-saver</span>
+<span class="n">auto_saver</span> <span class="o">=</span> <span class="n">AutoSaver</span><span class="p">(</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">main_window</span><span class="o">.</span><span class="n">parameters_container</span><span class="p">,</span>
+    <span class="sa">f</span><span class="s2">&quot;autosave/config_</span><span class="si">{</span><span class="nb">int</span><span class="p">(</span><span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">())</span><span class="si">}</span><span class="s2">.json&quot;</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="integration-with-external-systems">
+<h2>Integration with External Systems<a class="headerlink" href="#integration-with-external-systems" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><span class="xref std std-doc">mqtt_integration</span></p></li>
+<li><p><span class="xref std std-doc">rest_api_integration</span></p></li>
+<li><p><span class="xref std std-doc">database_integration</span></p></li>
+<li><p><span class="xref std std-doc">socket_communication</span></p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../examples/index.html" class="btn btn-neutral float-left" title="Examples" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../api_reference.html" class="btn btn-neutral float-right" title="API Reference" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright .</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

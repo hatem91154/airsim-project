@@ -1,0 +1,916 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>API Reference &mdash; Project name not set  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Contributing Guide" href="contributing.html" />
+    <link rel="prev" title="Advanced Usage" href="advanced_usage/index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Project name not set
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples/index.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced_usage/index.html">Advanced Usage</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">API Reference</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#core-components">Core Components</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#applicationbuilder">ApplicationBuilder</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pyqt_live_tuner.ApplicationBuilder"><code class="docutils literal notranslate"><span class="pre">pyqt_live_tuner.ApplicationBuilder</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#mainapplication">MainApplication</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pyqt_live_tuner.MainApplication"><code class="docutils literal notranslate"><span class="pre">pyqt_live_tuner.MainApplication</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#container-components">Container Components</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#parameterscontainer">ParametersContainer</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pyqt_live_tuner.containers.ParametersContainer"><code class="docutils literal notranslate"><span class="pre">pyqt_live_tuner.containers.ParametersContainer</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#configurationscontainer">ConfigurationsContainer</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pyqt_live_tuner.containers.ConfigurationsContainer"><code class="docutils literal notranslate"><span class="pre">pyqt_live_tuner.containers.ConfigurationsContainer</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#parameter-widgets">Parameter Widgets</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#parameterwidget-base-class">ParameterWidget (Base Class)</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pyqt_live_tuner.parameter_widgets.ParameterWidget"><code class="docutils literal notranslate"><span class="pre">pyqt_live_tuner.parameter_widgets.ParameterWidget</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#floatparameterwidget">FloatParameterWidget</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pyqt_live_tuner.parameter_widgets.FloatParameterWidget"><code class="docutils literal notranslate"><span class="pre">pyqt_live_tuner.parameter_widgets.FloatParameterWidget</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#boolparameterwidget">BoolParameterWidget</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pyqt_live_tuner.parameter_widgets.BoolParameterWidget"><code class="docutils literal notranslate"><span class="pre">pyqt_live_tuner.parameter_widgets.BoolParameterWidget</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#dropdownparameterwidget">DropdownParameterWidget</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pyqt_live_tuner.parameter_widgets.DropdownParameterWidget"><code class="docutils literal notranslate"><span class="pre">pyqt_live_tuner.parameter_widgets.DropdownParameterWidget</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#stringparameterwidget">StringParameterWidget</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pyqt_live_tuner.parameter_widgets.StringParameterWidget"><code class="docutils literal notranslate"><span class="pre">pyqt_live_tuner.parameter_widgets.StringParameterWidget</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#actionparameterwidget">ActionParameterWidget</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pyqt_live_tuner.parameter_widgets.ActionParameterWidget"><code class="docutils literal notranslate"><span class="pre">pyqt_live_tuner.parameter_widgets.ActionParameterWidget</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#parameter-groups">Parameter Groups</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#parametergroupwidget-base-class">ParameterGroupWidget (Base Class)</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pyqt_live_tuner.parameter_groups.ParameterGroupWidget"><code class="docutils literal notranslate"><span class="pre">pyqt_live_tuner.parameter_groups.ParameterGroupWidget</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#linkedparametergroup">LinkedParameterGroup</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pyqt_live_tuner.parameter_groups.LinkedParameterGroup"><code class="docutils literal notranslate"><span class="pre">pyqt_live_tuner.parameter_groups.LinkedParameterGroup</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#independentgroupwidget">IndependentGroupWidget</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pyqt_live_tuner.parameter_groups.IndependentGroupWidget"><code class="docutils literal notranslate"><span class="pre">pyqt_live_tuner.parameter_groups.IndependentGroupWidget</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#utility-classes">Utility Classes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#logger">Logger</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pyqt_live_tuner.logger"><code class="docutils literal notranslate"><span class="pre">pyqt_live_tuner.logger</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="testing.html">Testing Guide</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Project name not set</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">API Reference</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/api_reference.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="api-reference">
+<h1>API Reference<a class="headerlink" href="#api-reference" title="Link to this heading"></a></h1>
+<p>This section provides a detailed reference of all modules, classes, and functions in the PyQt Live Tuner library.</p>
+<section id="core-components">
+<h2>Core Components<a class="headerlink" href="#core-components" title="Link to this heading"></a></h2>
+<section id="applicationbuilder">
+<h3>ApplicationBuilder<a class="headerlink" href="#applicationbuilder" title="Link to this heading"></a></h3>
+<dl class="py class">
+<dt class="sig sig-object py" id="pyqt_live_tuner.ApplicationBuilder">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pyqt_live_tuner.</span></span><span class="sig-name descname"><span class="pre">ApplicationBuilder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'My</span> <span class="pre">Application'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.ApplicationBuilder" title="Link to this definition"></a></dt>
+<dd><p>A builder class that provides a clean interface for creating and running PyQt Live Tuner applications.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>title</strong> (<em>str</em>) – The title for the application window (default: “My Application”)</p>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="pyqt_live_tuner.ApplicationBuilder.main_window">
+<span class="sig-name descname"><span class="pre">main_window</span></span><a class="headerlink" href="#pyqt_live_tuner.ApplicationBuilder.main_window" title="Link to this definition"></a></dt>
+<dd><p>The main application window instance (<a class="reference internal" href="#pyqt_live_tuner.MainApplication" title="pyqt_live_tuner.MainApplication"><code class="xref py py-class docutils literal notranslate"><span class="pre">pyqt_live_tuner.MainApplication</span></code></a>).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.ApplicationBuilder.run">
+<span class="sig-name descname"><span class="pre">run</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.ApplicationBuilder.run" title="Link to this definition"></a></dt>
+<dd><p>Build the main window and launch the application. This method blocks until the application is closed.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="mainapplication">
+<h3>MainApplication<a class="headerlink" href="#mainapplication" title="Link to this heading"></a></h3>
+<dl class="py class">
+<dt class="sig sig-object py" id="pyqt_live_tuner.MainApplication">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pyqt_live_tuner.</span></span><span class="sig-name descname"><span class="pre">MainApplication</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'My</span> <span class="pre">Application'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.MainApplication" title="Link to this definition"></a></dt>
+<dd><p>The main window class for PyQt Live Tuner applications. It manages parameter containers and
+provides menu options for saving and loading configurations.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>title</strong> (<em>str</em>) – The title for the window (default: “My Application”)</p>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.MainApplication.set_parameters_container">
+<span class="sig-name descname"><span class="pre">set_parameters_container</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">container</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Parameters'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.MainApplication.set_parameters_container" title="Link to this definition"></a></dt>
+<dd><p>Sets the parameters container for the application.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>container</strong> (<a class="reference internal" href="#pyqt_live_tuner.containers.ParametersContainer" title="pyqt_live_tuner.containers.ParametersContainer"><em>ParametersContainer</em></a>) – The container to set</p></li>
+<li><p><strong>name</strong> (<em>str</em>) – The label to display above the container</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.MainApplication.set_configurations_container">
+<span class="sig-name descname"><span class="pre">set_configurations_container</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">container</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Configurations'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.MainApplication.set_configurations_container" title="Link to this definition"></a></dt>
+<dd><p>Sets the configurations container for the application.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>container</strong> (<a class="reference internal" href="#pyqt_live_tuner.containers.ConfigurationsContainer" title="pyqt_live_tuner.containers.ConfigurationsContainer"><em>ConfigurationsContainer</em></a>) – The container to set</p></li>
+<li><p><strong>name</strong> (<em>str</em>) – The label to display above the container</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.MainApplication.add_parameter">
+<span class="sig-name descname"><span class="pre">add_parameter</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">param</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.MainApplication.add_parameter" title="Link to this definition"></a></dt>
+<dd><p>Adds a parameter widget to the parameters container, creating the container if it doesn’t exist.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>param</strong> (<a class="reference internal" href="#pyqt_live_tuner.parameter_widgets.ParameterWidget" title="pyqt_live_tuner.parameter_widgets.ParameterWidget"><em>ParameterWidget</em></a>) – The parameter widget to add</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.MainApplication.add_parameter_group">
+<span class="sig-name descname"><span class="pre">add_parameter_group</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">group</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.MainApplication.add_parameter_group" title="Link to this definition"></a></dt>
+<dd><p>Adds a parameter group to the parameters container, creating the container if it doesn’t exist.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>group</strong> (<a class="reference internal" href="#pyqt_live_tuner.parameter_groups.ParameterGroupWidget" title="pyqt_live_tuner.parameter_groups.ParameterGroupWidget"><em>ParameterGroupWidget</em></a>) – The parameter group to add</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.MainApplication.add_configuration_widget">
+<span class="sig-name descname"><span class="pre">add_configuration_widget</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">widget</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">label</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.MainApplication.add_configuration_widget" title="Link to this definition"></a></dt>
+<dd><p>Adds a widget to the configurations container, creating the container if it doesn’t exist.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>widget</strong> (<em>QWidget</em>) – The widget to add</p></li>
+<li><p><strong>label</strong> (<em>str</em>) – Optional label to display above the widget</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+</section>
+<section id="container-components">
+<h2>Container Components<a class="headerlink" href="#container-components" title="Link to this heading"></a></h2>
+<section id="parameterscontainer">
+<h3>ParametersContainer<a class="headerlink" href="#parameterscontainer" title="Link to this heading"></a></h3>
+<dl class="py class">
+<dt class="sig sig-object py" id="pyqt_live_tuner.containers.ParametersContainer">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pyqt_live_tuner.containers.</span></span><span class="sig-name descname"><span class="pre">ParametersContainer</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.containers.ParametersContainer" title="Link to this definition"></a></dt>
+<dd><p>A scrollable container for organizing parameter widgets and groups.
+Supports reading and applying values from JSON.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>parent</strong> (<em>QWidget</em>) – The parent widget</p>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.containers.ParametersContainer.add_param">
+<span class="sig-name descname"><span class="pre">add_param</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">widget</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.containers.ParametersContainer.add_param" title="Link to this definition"></a></dt>
+<dd><p>Adds a parameter widget to the container.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>widget</strong> (<a class="reference internal" href="#pyqt_live_tuner.parameter_widgets.ParameterWidget" title="pyqt_live_tuner.parameter_widgets.ParameterWidget"><em>ParameterWidget</em></a>) – The parameter widget to add</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.containers.ParametersContainer.add_group">
+<span class="sig-name descname"><span class="pre">add_group</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">group</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.containers.ParametersContainer.add_group" title="Link to this definition"></a></dt>
+<dd><p>Adds a parameter group to the container.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>group</strong> (<a class="reference internal" href="#pyqt_live_tuner.parameter_groups.ParameterGroupWidget" title="pyqt_live_tuner.parameter_groups.ParameterGroupWidget"><em>ParameterGroupWidget</em></a>) – The parameter group to add</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.containers.ParametersContainer.get_values">
+<span class="sig-name descname"><span class="pre">get_values</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.containers.ParametersContainer.get_values" title="Link to this definition"></a></dt>
+<dd><p>Returns the current values of all parameters and groups.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>A dictionary of parameter values</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.containers.ParametersContainer.set_values">
+<span class="sig-name descname"><span class="pre">set_values</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">values</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.containers.ParametersContainer.set_values" title="Link to this definition"></a></dt>
+<dd><p>Sets the values of parameters and groups based on the provided dictionary.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>values</strong> (<em>dict</em>) – A dictionary of parameter values</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="configurationscontainer">
+<h3>ConfigurationsContainer<a class="headerlink" href="#configurationscontainer" title="Link to this heading"></a></h3>
+<dl class="py class">
+<dt class="sig sig-object py" id="pyqt_live_tuner.containers.ConfigurationsContainer">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pyqt_live_tuner.containers.</span></span><span class="sig-name descname"><span class="pre">ConfigurationsContainer</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.containers.ConfigurationsContainer" title="Link to this definition"></a></dt>
+<dd><p>A container for configuration widgets such as plots, image displays, or other custom widgets.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>parent</strong> (<em>QWidget</em>) – The parent widget</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+</section>
+<section id="parameter-widgets">
+<h2>Parameter Widgets<a class="headerlink" href="#parameter-widgets" title="Link to this heading"></a></h2>
+<section id="parameterwidget-base-class">
+<h3>ParameterWidget (Base Class)<a class="headerlink" href="#parameterwidget-base-class" title="Link to this heading"></a></h3>
+<dl class="py class">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_widgets.ParameterWidget">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pyqt_live_tuner.parameter_widgets.</span></span><span class="sig-name descname"><span class="pre">ParameterWidget</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Unnamed'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">config</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_widgets.ParameterWidget" title="Link to this definition"></a></dt>
+<dd><p>The base class for all parameter widgets. Implements common functionality and defines
+the interface that all parameter widgets must follow.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> (<em>str</em>) – The name of the parameter</p></li>
+<li><p><strong>config</strong> (<em>dict</em>) – A configuration dictionary for the widget</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_widgets.ParameterWidget.valueChanged">
+<span class="sig-name descname"><span class="pre">valueChanged</span></span><a class="headerlink" href="#pyqt_live_tuner.parameter_widgets.ParameterWidget.valueChanged" title="Link to this definition"></a></dt>
+<dd><p>A PyQt signal that is emitted when the parameter value changes.</p>
+<p>Signal signature: <code class="docutils literal notranslate"><span class="pre">valueChanged(name:</span> <span class="pre">str,</span> <span class="pre">value:</span> <span class="pre">Any)</span></code></p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_widgets.ParameterWidget.get_value">
+<span class="sig-name descname"><span class="pre">get_value</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_widgets.ParameterWidget.get_value" title="Link to this definition"></a></dt>
+<dd><p>Returns the current value of the parameter. Must be implemented by subclasses.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>The current parameter value</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>Any</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_widgets.ParameterWidget.set_value">
+<span class="sig-name descname"><span class="pre">set_value</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_widgets.ParameterWidget.set_value" title="Link to this definition"></a></dt>
+<dd><p>Sets the value of the parameter. Must be implemented by subclasses.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>value</strong> (<em>Any</em>) – The new parameter value</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_widgets.ParameterWidget.register_callback">
+<span class="sig-name descname"><span class="pre">register_callback</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">callback</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_widgets.ParameterWidget.register_callback" title="Link to this definition"></a></dt>
+<dd><p>Registers a function to be called when the parameter value changes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>callback</strong> (<em>callable</em>) – A function that takes (name, value) arguments</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="floatparameterwidget">
+<h3>FloatParameterWidget<a class="headerlink" href="#floatparameterwidget" title="Link to this heading"></a></h3>
+<dl class="py class">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_widgets.FloatParameterWidget">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pyqt_live_tuner.parameter_widgets.</span></span><span class="sig-name descname"><span class="pre">FloatParameterWidget</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Unnamed'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">config</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_widgets.FloatParameterWidget" title="Link to this definition"></a></dt>
+<dd><p>A parameter widget for adjusting floating-point values using a slider or spin box.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> (<em>str</em>) – The name of the parameter</p></li>
+<li><p><strong>config</strong> (<em>dict</em>) – <p>Configuration dictionary with the following optional keys:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">min</span></code> (float): Minimum value (default: 0.0)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">max</span></code> (float): Maximum value (default: 10.0)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">step</span></code> (float): Step size (default: 0.1)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">initial</span></code> (float): Initial value (default: min)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">precision</span></code> (int): Decimal precision (default: 2)</p></li>
+</ul>
+</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_widgets.FloatParameterWidget.set_value">
+<span class="sig-name descname"><span class="pre">set_value</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_widgets.FloatParameterWidget.set_value" title="Link to this definition"></a></dt>
+<dd><p>Sets the current value of the parameter.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>value</strong> (<em>float</em>) – The new parameter value</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_widgets.FloatParameterWidget.get_value">
+<span class="sig-name descname"><span class="pre">get_value</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_widgets.FloatParameterWidget.get_value" title="Link to this definition"></a></dt>
+<dd><p>Returns the current value of the parameter.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>The current parameter value</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="boolparameterwidget">
+<h3>BoolParameterWidget<a class="headerlink" href="#boolparameterwidget" title="Link to this heading"></a></h3>
+<dl class="py class">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_widgets.BoolParameterWidget">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pyqt_live_tuner.parameter_widgets.</span></span><span class="sig-name descname"><span class="pre">BoolParameterWidget</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Unnamed'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">config</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_widgets.BoolParameterWidget" title="Link to this definition"></a></dt>
+<dd><p>A parameter widget for boolean values using a checkbox.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> (<em>str</em>) – The name of the parameter</p></li>
+<li><p><strong>config</strong> (<em>dict</em>) – <p>Configuration dictionary with the following optional keys:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">initial</span></code> (bool): Initial state (default: False)</p></li>
+</ul>
+</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_widgets.BoolParameterWidget.set_value">
+<span class="sig-name descname"><span class="pre">set_value</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_widgets.BoolParameterWidget.set_value" title="Link to this definition"></a></dt>
+<dd><p>Sets the current state of the checkbox.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>value</strong> (<em>bool</em>) – The new parameter state</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_widgets.BoolParameterWidget.get_value">
+<span class="sig-name descname"><span class="pre">get_value</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_widgets.BoolParameterWidget.get_value" title="Link to this definition"></a></dt>
+<dd><p>Returns the current state of the checkbox.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>The current checkbox state</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="dropdownparameterwidget">
+<h3>DropdownParameterWidget<a class="headerlink" href="#dropdownparameterwidget" title="Link to this heading"></a></h3>
+<dl class="py class">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_widgets.DropdownParameterWidget">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pyqt_live_tuner.parameter_widgets.</span></span><span class="sig-name descname"><span class="pre">DropdownParameterWidget</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Unnamed'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">config</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_widgets.DropdownParameterWidget" title="Link to this definition"></a></dt>
+<dd><p>A parameter widget for selecting from a list using a dropdown.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> (<em>str</em>) – The name of the parameter</p></li>
+<li><p><strong>config</strong> (<em>dict</em>) – <p>Configuration dictionary with the following optional keys:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">options</span></code> (list): List of options (default: [])</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">initial</span></code> (str): Initial selection (default: first option)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">placeholder</span></code> (str): Placeholder text (default: “Select an option”)</p></li>
+</ul>
+</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_widgets.DropdownParameterWidget.set_value">
+<span class="sig-name descname"><span class="pre">set_value</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_widgets.DropdownParameterWidget.set_value" title="Link to this definition"></a></dt>
+<dd><p>Sets the current selection.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>value</strong> (<em>str</em>) – The new selection</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_widgets.DropdownParameterWidget.get_value">
+<span class="sig-name descname"><span class="pre">get_value</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_widgets.DropdownParameterWidget.get_value" title="Link to this definition"></a></dt>
+<dd><p>Returns the current selection.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>The current selection</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_widgets.DropdownParameterWidget.update_options">
+<span class="sig-name descname"><span class="pre">update_options</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">options</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initial</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_widgets.DropdownParameterWidget.update_options" title="Link to this definition"></a></dt>
+<dd><p>Updates the available options in the dropdown.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>options</strong> (<em>list</em>) – The new list of options</p></li>
+<li><p><strong>initial</strong> (<em>str</em>) – The new initial selection (optional)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="stringparameterwidget">
+<h3>StringParameterWidget<a class="headerlink" href="#stringparameterwidget" title="Link to this heading"></a></h3>
+<dl class="py class">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_widgets.StringParameterWidget">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pyqt_live_tuner.parameter_widgets.</span></span><span class="sig-name descname"><span class="pre">StringParameterWidget</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Unnamed'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">config</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_widgets.StringParameterWidget" title="Link to this definition"></a></dt>
+<dd><p>A parameter widget for entering text using a line edit.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> (<em>str</em>) – The name of the parameter</p></li>
+<li><p><strong>config</strong> (<em>dict</em>) – <p>Configuration dictionary with the following optional keys:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">initial</span></code> (str): Initial text (default: “”)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">placeholder</span></code> (str): Placeholder text (default: “”)</p></li>
+</ul>
+</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_widgets.StringParameterWidget.set_value">
+<span class="sig-name descname"><span class="pre">set_value</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_widgets.StringParameterWidget.set_value" title="Link to this definition"></a></dt>
+<dd><p>Sets the current text.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>value</strong> (<em>str</em>) – The new text</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_widgets.StringParameterWidget.get_value">
+<span class="sig-name descname"><span class="pre">get_value</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_widgets.StringParameterWidget.get_value" title="Link to this definition"></a></dt>
+<dd><p>Returns the current text.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>The current text</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="actionparameterwidget">
+<h3>ActionParameterWidget<a class="headerlink" href="#actionparameterwidget" title="Link to this heading"></a></h3>
+<dl class="py class">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_widgets.ActionParameterWidget">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pyqt_live_tuner.parameter_widgets.</span></span><span class="sig-name descname"><span class="pre">ActionParameterWidget</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Unnamed'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">config</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_widgets.ActionParameterWidget" title="Link to this definition"></a></dt>
+<dd><p>A parameter widget for triggering actions using a button.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> (<em>str</em>) – The name of the parameter (button text)</p></li>
+<li><p><strong>config</strong> (<em>dict</em>) – <p>Configuration dictionary with the following optional keys:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">callback</span></code> (callable): Function to call when button is clicked</p></li>
+</ul>
+</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_widgets.ActionParameterWidget.set_value">
+<span class="sig-name descname"><span class="pre">set_value</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_widgets.ActionParameterWidget.set_value" title="Link to this definition"></a></dt>
+<dd><p>This method is a no-op for action widgets since they don’t have a persistent value.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>value</strong> (<em>Any</em>) – Ignored</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_widgets.ActionParameterWidget.get_value">
+<span class="sig-name descname"><span class="pre">get_value</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_widgets.ActionParameterWidget.get_value" title="Link to this definition"></a></dt>
+<dd><p>Returns None since action widgets don’t have a persistent value.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+</section>
+<section id="parameter-groups">
+<h2>Parameter Groups<a class="headerlink" href="#parameter-groups" title="Link to this heading"></a></h2>
+<section id="parametergroupwidget-base-class">
+<h3>ParameterGroupWidget (Base Class)<a class="headerlink" href="#parametergroupwidget-base-class" title="Link to this heading"></a></h3>
+<dl class="py class">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_groups.ParameterGroupWidget">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pyqt_live_tuner.parameter_groups.</span></span><span class="sig-name descname"><span class="pre">ParameterGroupWidget</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Unnamed</span> <span class="pre">Group'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_groups.ParameterGroupWidget" title="Link to this definition"></a></dt>
+<dd><p>The base class for all parameter groups. Implements common functionality for organizing
+and managing related parameters.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>title</strong> (<em>str</em>) – The title of the group</p></li>
+<li><p><strong>parent</strong> (<em>QWidget</em>) – The parent widget</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_groups.ParameterGroupWidget.title">
+<span class="sig-name descname"><span class="pre">title</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_groups.ParameterGroupWidget.title" title="Link to this definition"></a></dt>
+<dd><p>Returns the title of the group.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>The group title</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_groups.ParameterGroupWidget.add_parameter">
+<span class="sig-name descname"><span class="pre">add_parameter</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">widget</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_groups.ParameterGroupWidget.add_parameter" title="Link to this definition"></a></dt>
+<dd><p>Adds a parameter widget to the group.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>widget</strong> (<a class="reference internal" href="#pyqt_live_tuner.parameter_widgets.ParameterWidget" title="pyqt_live_tuner.parameter_widgets.ParameterWidget"><em>ParameterWidget</em></a>) – The parameter widget to add</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_groups.ParameterGroupWidget.get_values">
+<span class="sig-name descname"><span class="pre">get_values</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_groups.ParameterGroupWidget.get_values" title="Link to this definition"></a></dt>
+<dd><p>Returns the current values of all parameters in the group.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>A dictionary of parameter values</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_groups.ParameterGroupWidget.set_values">
+<span class="sig-name descname"><span class="pre">set_values</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">values</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_groups.ParameterGroupWidget.set_values" title="Link to this definition"></a></dt>
+<dd><p>Sets the values of parameters in the group based on the provided dictionary.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>values</strong> (<em>dict</em>) – A dictionary of parameter values</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="linkedparametergroup">
+<h3>LinkedParameterGroup<a class="headerlink" href="#linkedparametergroup" title="Link to this heading"></a></h3>
+<dl class="py class">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_groups.LinkedParameterGroup">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pyqt_live_tuner.parameter_groups.</span></span><span class="sig-name descname"><span class="pre">LinkedParameterGroup</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Unnamed</span> <span class="pre">Group'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_groups.LinkedParameterGroup" title="Link to this definition"></a></dt>
+<dd><p>A group of related parameters that emits a signal with all parameter values when any parameter changes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>title</strong> (<em>str</em>) – The title of the group</p></li>
+<li><p><strong>parent</strong> (<em>QWidget</em>) – The parent widget</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_groups.LinkedParameterGroup.groupChanged">
+<span class="sig-name descname"><span class="pre">groupChanged</span></span><a class="headerlink" href="#pyqt_live_tuner.parameter_groups.LinkedParameterGroup.groupChanged" title="Link to this definition"></a></dt>
+<dd><p>A PyQt signal that is emitted when any parameter in the group changes.</p>
+<p>Signal signature: <code class="docutils literal notranslate"><span class="pre">groupChanged(group_name:</span> <span class="pre">str,</span> <span class="pre">values:</span> <span class="pre">dict)</span></code></p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_groups.LinkedParameterGroup.add_parameter">
+<span class="sig-name descname"><span class="pre">add_parameter</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">widget</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_groups.LinkedParameterGroup.add_parameter" title="Link to this definition"></a></dt>
+<dd><p>Adds a parameter widget to the group and connects its valueChanged signal.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>widget</strong> (<a class="reference internal" href="#pyqt_live_tuner.parameter_widgets.ParameterWidget" title="pyqt_live_tuner.parameter_widgets.ParameterWidget"><em>ParameterWidget</em></a>) – The parameter widget to add</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_groups.LinkedParameterGroup.register_callback">
+<span class="sig-name descname"><span class="pre">register_callback</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">callback</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_groups.LinkedParameterGroup.register_callback" title="Link to this definition"></a></dt>
+<dd><p>Registers a function to be called when any parameter in the group changes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>callback</strong> (<em>callable</em>) – A function that takes (group_name, values_dict) arguments</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="independentgroupwidget">
+<h3>IndependentGroupWidget<a class="headerlink" href="#independentgroupwidget" title="Link to this heading"></a></h3>
+<dl class="py class">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_groups.IndependentGroupWidget">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pyqt_live_tuner.parameter_groups.</span></span><span class="sig-name descname"><span class="pre">IndependentGroupWidget</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Unnamed</span> <span class="pre">Group'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_groups.IndependentGroupWidget" title="Link to this definition"></a></dt>
+<dd><p>A group of parameters that are visually grouped but don’t emit a combined signal.
+Each parameter emits its own independent signals.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>title</strong> (<em>str</em>) – The title of the group</p></li>
+<li><p><strong>parent</strong> (<em>QWidget</em>) – The parent widget</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="pyqt_live_tuner.parameter_groups.IndependentGroupWidget.add_parameter">
+<span class="sig-name descname"><span class="pre">add_parameter</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">widget</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyqt_live_tuner.parameter_groups.IndependentGroupWidget.add_parameter" title="Link to this definition"></a></dt>
+<dd><p>Adds a parameter widget to the group without connecting signals.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>widget</strong> (<a class="reference internal" href="#pyqt_live_tuner.parameter_widgets.ParameterWidget" title="pyqt_live_tuner.parameter_widgets.ParameterWidget"><em>ParameterWidget</em></a>) – The parameter widget to add</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+</section>
+<section id="utility-classes">
+<h2>Utility Classes<a class="headerlink" href="#utility-classes" title="Link to this heading"></a></h2>
+<section id="logger">
+<h3>Logger<a class="headerlink" href="#logger" title="Link to this heading"></a></h3>
+<dl class="py data">
+<dt class="sig sig-object py" id="pyqt_live_tuner.logger">
+<span class="sig-prename descclassname"><span class="pre">pyqt_live_tuner.</span></span><span class="sig-name descname"><span class="pre">logger</span></span><a class="headerlink" href="#pyqt_live_tuner.logger" title="Link to this definition"></a></dt>
+<dd><p>A logging utility for debugging and tracing. Uses Python’s built-in logging module.</p>
+</dd></dl>
+
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="advanced_usage/index.html" class="btn btn-neutral float-left" title="Advanced Usage" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="contributing.html" class="btn btn-neutral float-right" title="Contributing Guide" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright .</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

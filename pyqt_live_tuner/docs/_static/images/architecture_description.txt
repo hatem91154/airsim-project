@@ -1,0 +1,66 @@
+PyQt Live Tuner Architecture
+
++------------------------------------------+
+|             ApplicationBuilder           |
+|                                          |
+|  Creates and configures the application  |
++------------------+---------------------+
+                   |
+                   | creates
+                   v
++------------------------------------------+
+|             MainApplication              |
+|                                          |
+|  Main window with menu and layout        |
++------------------+---------------------+
+                   |
+        +----------+-----------+
+        |                      |
+        v                      v
++---------------+    +------------------+
+| Parameters    |    | Configurations   |
+| Container     |    | Container        |
+|               |    |                  |
+| Scrollable    |    | Holds custom     |
+| area for      |    | widgets and      |
+| widgets       |    | displays         |
++-----+---------+    +------------------+
+      |
+      | contains
+      |
++-----v----------+
+|                |
+| +-----------+  |
+| | Parameter |  |
+| | Widgets   |  |
+| +-----------+  |
+|                |
+| +-----------+  |
+| | Parameter |  |
+| | Groups    |  |
+| +-----------+  |
+|                |
++----------------+
+
+Parameter Widgets Hierarchy:
+---------------------------
+ParameterWidget (Abstract Base)
+├── FloatParameterWidget
+├── BoolParameterWidget
+├── DropdownParameterWidget
+├── StringParameterWidget
+└── ActionParameterWidget
+
+Parameter Groups Hierarchy:
+--------------------------
+ParameterGroupWidget (Base)
+├── LinkedParameterGroup
+└── IndependentGroupWidget
+
+Signal Flow:
+-----------
+1. User interacts with a widget (e.g., moves a slider)
+2. Widget emits valueChanged(name, value)
+3. If widget is in a group, group emits groupChanged(group_name, values_dict)
+4. Registered callbacks process the changes
+5. Application UI updates in response

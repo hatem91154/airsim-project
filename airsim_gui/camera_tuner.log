@@ -1,0 +1,156 @@
+[2025-06-01 23:23:22] [INFO] Logger initialized. Console level: 20, File level: 10
+[2025-06-01 23:23:26] [INFO] Logger initialized. Console level: 20, File level: 10
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created:  [10.0–120.0]
+[2025-06-01 23:23:27] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_camera_fov_changed of <__main__.AirSimGUI object at 0x7402dedd6bf0>>
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created: X [-100.0–100.0]
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created: Y [-100.0–100.0]
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created: Z [-100.0–100.0]
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created: Roll [-180.0–180.0]
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created: Pitch [-180.0–180.0]
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created: Yaw [-180.0–180.0]
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created:  [0.1–100.0]
+[2025-06-01 23:23:27] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_focus_distance_changed of <__main__.AirSimGUI object at 0x7402dedd6bf0>>
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created:  [0.1–22.0]
+[2025-06-01 23:23:27] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_focus_aperture_changed of <__main__.AirSimGUI object at 0x7402dedd6bf0>>
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created:  [12.0–200.0]
+[2025-06-01 23:23:27] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_focal_length_changed of <__main__.AirSimGUI object at 0x7402dedd6bf0>>
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created:  [5.0–50.0]
+[2025-06-01 23:23:27] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_filmback_size_changed of <__main__.AirSimGUI object at 0x7402dedd6bf0>>
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created:  [3.0–40.0]
+[2025-06-01 23:23:27] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_filmback_size_changed of <__main__.AirSimGUI object at 0x7402dedd6bf0>>
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created:  [-1.0–1.0]
+[2025-06-01 23:23:27] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_distortion_changed of <__main__.AirSimGUI object at 0x7402dedd6bf0>>
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created:  [-1.0–1.0]
+[2025-06-01 23:23:27] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_distortion_changed of <__main__.AirSimGUI object at 0x7402dedd6bf0>>
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created:  [-1.0–1.0]
+[2025-06-01 23:23:27] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_distortion_changed of <__main__.AirSimGUI object at 0x7402dedd6bf0>>
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created:  [-1.0–1.0]
+[2025-06-01 23:23:27] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_distortion_changed of <__main__.AirSimGUI object at 0x7402dedd6bf0>>
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created:  [-1.0–1.0]
+[2025-06-01 23:23:27] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_distortion_changed of <__main__.AirSimGUI object at 0x7402dedd6bf0>>
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created:  [0.0–1.0]
+[2025-06-01 23:23:27] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_weather_param_changed of <__main__.AirSimGUI object at 0x7402dedd6bf0>>
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created:  [0.0–1.0]
+[2025-06-01 23:23:27] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_weather_param_changed of <__main__.AirSimGUI object at 0x7402dedd6bf0>>
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created:  [0.0–1.0]
+[2025-06-01 23:23:27] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_weather_param_changed of <__main__.AirSimGUI object at 0x7402dedd6bf0>>
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created:  [0.0–1.0]
+[2025-06-01 23:23:27] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_weather_param_changed of <__main__.AirSimGUI object at 0x7402dedd6bf0>>
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created:  [0.0–1.0]
+[2025-06-01 23:23:27] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_weather_param_changed of <__main__.AirSimGUI object at 0x7402dedd6bf0>>
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created:  [0.0–1.0]
+[2025-06-01 23:23:27] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_weather_param_changed of <__main__.AirSimGUI object at 0x7402dedd6bf0>>
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created:  [0.0–1.0]
+[2025-06-01 23:23:27] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_weather_param_changed of <__main__.AirSimGUI object at 0x7402dedd6bf0>>
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created:  [0.0–1.0]
+[2025-06-01 23:23:27] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_weather_param_changed of <__main__.AirSimGUI object at 0x7402dedd6bf0>>
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created:  [-10.0–10.0]
+[2025-06-01 23:23:27] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_wind_direction_changed of <__main__.AirSimGUI object at 0x7402dedd6bf0>>
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created:  [-10.0–10.0]
+[2025-06-01 23:23:27] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_wind_direction_changed of <__main__.AirSimGUI object at 0x7402dedd6bf0>>
+[2025-06-01 23:23:27] [DEBUG] FloatParameterWidget created:  [-10.0–10.0]
+[2025-06-01 23:23:27] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_wind_direction_changed of <__main__.AirSimGUI object at 0x7402dedd6bf0>>
+[2025-06-16 10:59:28] [INFO] Logger initialized. Console level: 20, File level: 10
+[2025-06-16 10:59:37] [INFO] Logger initialized. Console level: 20, File level: 10
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created:  [10.0–120.0]
+[2025-06-16 10:59:37] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_camera_fov_changed of <__main__.AirSimGUI object at 0x70becbfcebf0>>
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created: X [-100.0–100.0]
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created: Y [-100.0–100.0]
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created: Z [-100.0–100.0]
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created: Roll [-180.0–180.0]
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created: Pitch [-180.0–180.0]
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created: Yaw [-180.0–180.0]
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created:  [0.1–100.0]
+[2025-06-16 10:59:37] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_focus_distance_changed of <__main__.AirSimGUI object at 0x70becbfcebf0>>
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created:  [0.1–22.0]
+[2025-06-16 10:59:37] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_focus_aperture_changed of <__main__.AirSimGUI object at 0x70becbfcebf0>>
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created:  [12.0–200.0]
+[2025-06-16 10:59:37] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_focal_length_changed of <__main__.AirSimGUI object at 0x70becbfcebf0>>
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created:  [5.0–50.0]
+[2025-06-16 10:59:37] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_filmback_size_changed of <__main__.AirSimGUI object at 0x70becbfcebf0>>
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created:  [3.0–40.0]
+[2025-06-16 10:59:37] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_filmback_size_changed of <__main__.AirSimGUI object at 0x70becbfcebf0>>
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created:  [-1.0–1.0]
+[2025-06-16 10:59:37] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_distortion_changed of <__main__.AirSimGUI object at 0x70becbfcebf0>>
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created:  [-1.0–1.0]
+[2025-06-16 10:59:37] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_distortion_changed of <__main__.AirSimGUI object at 0x70becbfcebf0>>
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created:  [-1.0–1.0]
+[2025-06-16 10:59:37] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_distortion_changed of <__main__.AirSimGUI object at 0x70becbfcebf0>>
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created:  [-1.0–1.0]
+[2025-06-16 10:59:37] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_distortion_changed of <__main__.AirSimGUI object at 0x70becbfcebf0>>
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created:  [-1.0–1.0]
+[2025-06-16 10:59:37] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_distortion_changed of <__main__.AirSimGUI object at 0x70becbfcebf0>>
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created:  [0.0–1.0]
+[2025-06-16 10:59:37] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_weather_param_changed of <__main__.AirSimGUI object at 0x70becbfcebf0>>
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created:  [0.0–1.0]
+[2025-06-16 10:59:37] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_weather_param_changed of <__main__.AirSimGUI object at 0x70becbfcebf0>>
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created:  [0.0–1.0]
+[2025-06-16 10:59:37] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_weather_param_changed of <__main__.AirSimGUI object at 0x70becbfcebf0>>
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created:  [0.0–1.0]
+[2025-06-16 10:59:37] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_weather_param_changed of <__main__.AirSimGUI object at 0x70becbfcebf0>>
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created:  [0.0–1.0]
+[2025-06-16 10:59:37] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_weather_param_changed of <__main__.AirSimGUI object at 0x70becbfcebf0>>
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created:  [0.0–1.0]
+[2025-06-16 10:59:37] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_weather_param_changed of <__main__.AirSimGUI object at 0x70becbfcebf0>>
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created:  [0.0–1.0]
+[2025-06-16 10:59:37] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_weather_param_changed of <__main__.AirSimGUI object at 0x70becbfcebf0>>
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created:  [0.0–1.0]
+[2025-06-16 10:59:37] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_weather_param_changed of <__main__.AirSimGUI object at 0x70becbfcebf0>>
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created:  [-10.0–10.0]
+[2025-06-16 10:59:37] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_wind_direction_changed of <__main__.AirSimGUI object at 0x70becbfcebf0>>
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created:  [-10.0–10.0]
+[2025-06-16 10:59:37] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_wind_direction_changed of <__main__.AirSimGUI object at 0x70becbfcebf0>>
+[2025-06-16 10:59:37] [DEBUG] FloatParameterWidget created:  [-10.0–10.0]
+[2025-06-16 10:59:37] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_wind_direction_changed of <__main__.AirSimGUI object at 0x70becbfcebf0>>
+[2025-06-16 11:07:31] [INFO] Logger initialized. Console level: 20, File level: 10
+[2025-06-16 11:07:34] [INFO] Logger initialized. Console level: 20, File level: 10
+[2025-06-16 11:07:34] [DEBUG] FloatParameterWidget created:  [10.0–120.0]
+[2025-06-16 11:07:34] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_camera_fov_changed of <__main__.AirSimGUI object at 0x77b74c3d2bf0>>
+[2025-06-16 11:07:34] [DEBUG] FloatParameterWidget created: X [-100.0–100.0]
+[2025-06-16 11:07:34] [DEBUG] FloatParameterWidget created: Y [-100.0–100.0]
+[2025-06-16 11:07:34] [DEBUG] FloatParameterWidget created: Z [-100.0–100.0]
+[2025-06-16 11:07:34] [DEBUG] FloatParameterWidget created: Roll [-180.0–180.0]
+[2025-06-16 11:07:34] [DEBUG] FloatParameterWidget created: Pitch [-180.0–180.0]
+[2025-06-16 11:07:34] [DEBUG] FloatParameterWidget created: Yaw [-180.0–180.0]
+[2025-06-16 11:07:34] [DEBUG] FloatParameterWidget created:  [0.1–100.0]
+[2025-06-16 11:07:34] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_focus_distance_changed of <__main__.AirSimGUI object at 0x77b74c3d2bf0>>
+[2025-06-16 11:07:34] [DEBUG] FloatParameterWidget created:  [0.1–22.0]
+[2025-06-16 11:07:34] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_focus_aperture_changed of <__main__.AirSimGUI object at 0x77b74c3d2bf0>>
+[2025-06-16 11:07:34] [DEBUG] FloatParameterWidget created:  [12.0–200.0]
+[2025-06-16 11:07:34] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_focal_length_changed of <__main__.AirSimGUI object at 0x77b74c3d2bf0>>
+[2025-06-16 11:07:34] [DEBUG] FloatParameterWidget created:  [5.0–50.0]
+[2025-06-16 11:07:34] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_filmback_size_changed of <__main__.AirSimGUI object at 0x77b74c3d2bf0>>
+[2025-06-16 11:07:34] [DEBUG] FloatParameterWidget created:  [3.0–40.0]
+[2025-06-16 11:07:34] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_filmback_size_changed of <__main__.AirSimGUI object at 0x77b74c3d2bf0>>
+[2025-06-16 11:07:34] [DEBUG] FloatParameterWidget created:  [-1.0–1.0]
+[2025-06-16 11:07:34] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_distortion_changed of <__main__.AirSimGUI object at 0x77b74c3d2bf0>>
+[2025-06-16 11:07:34] [DEBUG] FloatParameterWidget created:  [-1.0–1.0]
+[2025-06-16 11:07:34] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_distortion_changed of <__main__.AirSimGUI object at 0x77b74c3d2bf0>>
+[2025-06-16 11:07:34] [DEBUG] FloatParameterWidget created:  [-1.0–1.0]
+[2025-06-16 11:07:34] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_distortion_changed of <__main__.AirSimGUI object at 0x77b74c3d2bf0>>
+[2025-06-16 11:07:34] [DEBUG] FloatParameterWidget created:  [-1.0–1.0]
+[2025-06-16 11:07:34] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_distortion_changed of <__main__.AirSimGUI object at 0x77b74c3d2bf0>>
+[2025-06-16 11:07:34] [DEBUG] FloatParameterWidget created:  [-1.0–1.0]
+[2025-06-16 11:07:34] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_distortion_changed of <__main__.AirSimGUI object at 0x77b74c3d2bf0>>
+[2025-06-16 11:07:35] [DEBUG] FloatParameterWidget created:  [0.0–1.0]
+[2025-06-16 11:07:35] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_weather_param_changed of <__main__.AirSimGUI object at 0x77b74c3d2bf0>>
+[2025-06-16 11:07:35] [DEBUG] FloatParameterWidget created:  [0.0–1.0]
+[2025-06-16 11:07:35] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_weather_param_changed of <__main__.AirSimGUI object at 0x77b74c3d2bf0>>
+[2025-06-16 11:07:35] [DEBUG] FloatParameterWidget created:  [0.0–1.0]
+[2025-06-16 11:07:35] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_weather_param_changed of <__main__.AirSimGUI object at 0x77b74c3d2bf0>>
+[2025-06-16 11:07:35] [DEBUG] FloatParameterWidget created:  [0.0–1.0]
+[2025-06-16 11:07:35] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_weather_param_changed of <__main__.AirSimGUI object at 0x77b74c3d2bf0>>
+[2025-06-16 11:07:35] [DEBUG] FloatParameterWidget created:  [0.0–1.0]
+[2025-06-16 11:07:35] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_weather_param_changed of <__main__.AirSimGUI object at 0x77b74c3d2bf0>>
+[2025-06-16 11:07:35] [DEBUG] FloatParameterWidget created:  [0.0–1.0]
+[2025-06-16 11:07:35] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_weather_param_changed of <__main__.AirSimGUI object at 0x77b74c3d2bf0>>
+[2025-06-16 11:07:35] [DEBUG] FloatParameterWidget created:  [0.0–1.0]
+[2025-06-16 11:07:35] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_weather_param_changed of <__main__.AirSimGUI object at 0x77b74c3d2bf0>>
+[2025-06-16 11:07:35] [DEBUG] FloatParameterWidget created:  [0.0–1.0]
+[2025-06-16 11:07:35] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_weather_param_changed of <__main__.AirSimGUI object at 0x77b74c3d2bf0>>
+[2025-06-16 11:07:35] [DEBUG] FloatParameterWidget created:  [-10.0–10.0]
+[2025-06-16 11:07:35] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_wind_direction_changed of <__main__.AirSimGUI object at 0x77b74c3d2bf0>>
+[2025-06-16 11:07:35] [DEBUG] FloatParameterWidget created:  [-10.0–10.0]
+[2025-06-16 11:07:35] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_wind_direction_changed of <__main__.AirSimGUI object at 0x77b74c3d2bf0>>
+[2025-06-16 11:07:35] [DEBUG] FloatParameterWidget created:  [-10.0–10.0]
+[2025-06-16 11:07:35] [DEBUG] [] Callback registered: <bound method AirSimGUI._on_wind_direction_changed of <__main__.AirSimGUI object at 0x77b74c3d2bf0>>
