@@ -11,6 +11,8 @@ setup(
     install_requires=[
         "PyQt5",
         "pyqtdarktheme",
+        "numpy>=1.23,<2.0",
+        "cosysairsim"
     ],
     classifiers=[
         'Programming Language :: Python :: 3',
